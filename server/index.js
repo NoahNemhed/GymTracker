@@ -2,6 +2,7 @@ import express from "express";
 import dotenv from "dotenv";
 import cors from "cors";
 import mongoose from "mongoose";
+import exerciseRoutes from "./routes/exerciseRoutes.js";
 
 dotenv.config();
 
@@ -14,9 +15,13 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+app.use("/api/exercises", exerciseRoutes);
+
 app.get("/", (req, res) => {
   res.send("API is running...");
 });
+
+
 
 const PORT = process.env.PORT || 5000;
 
