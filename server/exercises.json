@@ -1,0 +1,2938 @@
+[
+  {
+    "exerciseId": "barbell_bench_press",
+    "name": "Barbell Bench Press",
+    "aliases": [
+      "bench press",
+      "flat bench press",
+      "bb bench"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "barbell",
+      "bench",
+      "rack"
+    ],
+    "primaryMuscles": [
+      "chest"
+    ],
+    "secondaryMuscles": [
+      "triceps",
+      "shoulders"
+    ],
+    "difficulty": "intermediate",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "barbell_incline_bench_press",
+    "name": "Barbell Incline Bench Press",
+    "aliases": [
+      "incline bench press"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "barbell",
+      "incline_bench",
+      "rack"
+    ],
+    "primaryMuscles": [
+      "chest"
+    ],
+    "secondaryMuscles": [
+      "triceps",
+      "shoulders"
+    ],
+    "difficulty": "intermediate",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "barbell_decline_bench_press",
+    "name": "Barbell Decline Bench Press",
+    "aliases": [
+      "decline bench press"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "barbell",
+      "decline_bench",
+      "rack"
+    ],
+    "primaryMuscles": [
+      "chest"
+    ],
+    "secondaryMuscles": [
+      "triceps",
+      "shoulders"
+    ],
+    "difficulty": "intermediate",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "dumbbell_bench_press",
+    "name": "Dumbbell Bench Press",
+    "aliases": [
+      "db bench press",
+      "flat dumbbell press"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "dumbbells",
+      "bench"
+    ],
+    "primaryMuscles": [
+      "chest"
+    ],
+    "secondaryMuscles": [
+      "triceps",
+      "shoulders"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "dumbbell_incline_bench_press",
+    "name": "Dumbbell Incline Bench Press",
+    "aliases": [
+      "db incline bench press"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "dumbbells",
+      "incline_bench"
+    ],
+    "primaryMuscles": [
+      "chest"
+    ],
+    "secondaryMuscles": [
+      "triceps",
+      "shoulders"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "dumbbell_decline_bench_press",
+    "name": "Dumbbell Decline Bench Press",
+    "aliases": [
+      "db decline bench press"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "dumbbells",
+      "decline_bench"
+    ],
+    "primaryMuscles": [
+      "chest"
+    ],
+    "secondaryMuscles": [
+      "triceps",
+      "shoulders"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "machine_chest_press",
+    "name": "Machine Chest Press",
+    "aliases": [
+      "chest press"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "chest_press_machine"
+    ],
+    "primaryMuscles": [
+      "chest"
+    ],
+    "secondaryMuscles": [
+      "triceps",
+      "shoulders"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "machine_incline_chest_press",
+    "name": "Machine Incline Chest Press",
+    "aliases": [
+      "incline chest press"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "chest_press_machine"
+    ],
+    "primaryMuscles": [
+      "chest"
+    ],
+    "secondaryMuscles": [
+      "triceps",
+      "shoulders"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "machine_decline_chest_press",
+    "name": "Machine Decline Chest Press",
+    "aliases": [
+      "decline chest press"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "chest_press_machine"
+    ],
+    "primaryMuscles": [
+      "chest"
+    ],
+    "secondaryMuscles": [
+      "triceps",
+      "shoulders"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "smith_machine_chest_press",
+    "name": "Smith Machine Chest Press",
+    "aliases": [
+      "smith bench press"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "smith_machine",
+      "bench"
+    ],
+    "primaryMuscles": [
+      "chest"
+    ],
+    "secondaryMuscles": [
+      "triceps",
+      "shoulders"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "landmine_chest_press",
+    "name": "Landmine Chest Press",
+    "aliases": [],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "barbell",
+      "landmine_attachment"
+    ],
+    "primaryMuscles": [
+      "chest"
+    ],
+    "secondaryMuscles": [
+      "triceps",
+      "shoulders"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "dip",
+    "name": "Dip",
+    "aliases": [],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "dip_bars"
+    ],
+    "primaryMuscles": [
+      "chest"
+    ],
+    "secondaryMuscles": [
+      "triceps",
+      "shoulders"
+    ],
+    "difficulty": "intermediate",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "pec_deck_fly",
+    "name": "Pec Deck Fly",
+    "aliases": [
+      "pec deck",
+      "machine fly"
+    ],
+    "exerciseType": "isolation",
+    "equipmentRequired": [
+      "pec_deck_machine"
+    ],
+    "primaryMuscles": [
+      "chest"
+    ],
+    "secondaryMuscles": [
+      "shoulders"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "dumbbell_fly",
+    "name": "Dumbbell Fly",
+    "aliases": [
+      "db fly"
+    ],
+    "exerciseType": "isolation",
+    "equipmentRequired": [
+      "dumbbells",
+      "bench"
+    ],
+    "primaryMuscles": [
+      "chest"
+    ],
+    "secondaryMuscles": [
+      "shoulders"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "incline_cable_fly",
+    "name": "Incline Cable Fly",
+    "aliases": [],
+    "exerciseType": "isolation",
+    "equipmentRequired": [
+      "cable_machine",
+      "incline_bench"
+    ],
+    "primaryMuscles": [
+      "chest"
+    ],
+    "secondaryMuscles": [
+      "shoulders"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "mid_cable_fly",
+    "name": "Mid Cable Fly",
+    "aliases": [],
+    "exerciseType": "isolation",
+    "equipmentRequired": [
+      "cable_machine",
+      "bench"
+    ],
+    "primaryMuscles": [
+      "chest"
+    ],
+    "secondaryMuscles": [
+      "shoulders"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "low_cable_fly",
+    "name": "Low Cable Fly",
+    "aliases": [],
+    "exerciseType": "isolation",
+    "equipmentRequired": [
+      "cable_machine",
+      "bench"
+    ],
+    "primaryMuscles": [
+      "chest"
+    ],
+    "secondaryMuscles": [
+      "shoulders"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "barbell_row",
+    "name": "Barbell Row",
+    "aliases": [
+      "row"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "barbell"
+    ],
+    "primaryMuscles": [
+      "back"
+    ],
+    "secondaryMuscles": [
+      "biceps"
+    ],
+    "difficulty": "intermediate",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "barbell_pendlay_row",
+    "name": "Barbell Pendlay Row",
+    "aliases": [
+      "pendlay row"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "barbell"
+    ],
+    "primaryMuscles": [
+      "back"
+    ],
+    "secondaryMuscles": [
+      "biceps"
+    ],
+    "difficulty": "intermediate",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "barbell_meadows_row",
+    "name": "Barbell Meadows Row",
+    "aliases": [
+      "meadows row"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "barbell"
+    ],
+    "primaryMuscles": [
+      "back"
+    ],
+    "secondaryMuscles": [
+      "biceps"
+    ],
+    "difficulty": "intermediate",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "chest_supported_barbell_row",
+    "name": "Chest Supported Barbell Row",
+    "aliases": [
+      "chest supported row"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "barbell",
+      "incline_bench"
+    ],
+    "primaryMuscles": [
+      "back"
+    ],
+    "secondaryMuscles": [
+      "biceps"
+    ],
+    "difficulty": "intermediate",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "dumbbell_row",
+    "name": "Dumbbell Row",
+    "aliases": [
+      "db row"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "dumbbells",
+      "bench"
+    ],
+    "primaryMuscles": [
+      "back"
+    ],
+    "secondaryMuscles": [
+      "biceps"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "chest_supported_dumbbell_row",
+    "name": "Chest Supported Dumbbell Row",
+    "aliases": [
+      "chest supported db row"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "dumbbells",
+      "incline_bench"
+    ],
+    "primaryMuscles": [
+      "back"
+    ],
+    "secondaryMuscles": [
+      "biceps"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "dumbbell_incline_row",
+    "name": "Dumbbell Incline Row",
+    "aliases": [
+      "db incline row"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "dumbbells",
+      "incline_bench"
+    ],
+    "primaryMuscles": [
+      "back"
+    ],
+    "secondaryMuscles": [
+      "biceps"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "dumbbell_pendlay_row",
+    "name": "Dumbbell Pendlay Row",
+    "aliases": [
+      "db pendlay row"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "dumbbells"
+    ],
+    "primaryMuscles": [
+      "back"
+    ],
+    "secondaryMuscles": [
+      "biceps"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "dumbbell_renegade_row",
+    "name": "Dumbbell Renegade Row",
+    "aliases": [
+      "db renegade row"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "dumbbells"
+    ],
+    "primaryMuscles": [
+      "back"
+    ],
+    "secondaryMuscles": [
+      "biceps"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "seated_cable_row",
+    "name": "Seated Cable Row",
+    "aliases": [],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "cable_machine"
+    ],
+    "primaryMuscles": [
+      "back"
+    ],
+    "secondaryMuscles": [
+      "biceps"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "underhand_cable_row",
+    "name": "Underhand Cable Row",
+    "aliases": [],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "cable_machine"
+    ],
+    "primaryMuscles": [
+      "back"
+    ],
+    "secondaryMuscles": [
+      "biceps"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "seated_row_machine",
+    "name": "Seated Row Machine",
+    "aliases": [],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "row_machine"
+    ],
+    "primaryMuscles": [
+      "back"
+    ],
+    "secondaryMuscles": [
+      "biceps"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "landmine_row",
+    "name": "Landmine Row",
+    "aliases": [],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "barbell",
+      "landmine_attachment"
+    ],
+    "primaryMuscles": [
+      "back"
+    ],
+    "secondaryMuscles": [
+      "biceps"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "kettlebell_row",
+    "name": "Kettlebell Row",
+    "aliases": [],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "kettlebell",
+      "bench"
+    ],
+    "primaryMuscles": [
+      "back"
+    ],
+    "secondaryMuscles": [
+      "biceps"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "kettlebell_gorilla_row",
+    "name": "Kettlebell Gorilla Row",
+    "aliases": [],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "kettlebell"
+    ],
+    "primaryMuscles": [
+      "back"
+    ],
+    "secondaryMuscles": [
+      "biceps"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "pull_up",
+    "name": "Pull Up",
+    "aliases": [
+      "pull-up",
+      "weighted pull-up"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "pull_up_bar"
+    ],
+    "primaryMuscles": [
+      "back"
+    ],
+    "secondaryMuscles": [
+      "biceps"
+    ],
+    "difficulty": "intermediate",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "chin_up",
+    "name": "Chin Up",
+    "aliases": [
+      "chin-up",
+      "underhand pull-up"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "pull_up_bar"
+    ],
+    "primaryMuscles": [
+      "back"
+    ],
+    "secondaryMuscles": [
+      "biceps"
+    ],
+    "difficulty": "intermediate",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "lat_pulldown",
+    "name": "Lat Pulldown",
+    "aliases": [],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "cable_machine"
+    ],
+    "primaryMuscles": [
+      "back"
+    ],
+    "secondaryMuscles": [
+      "biceps"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "neutral_grip_lat_pulldown",
+    "name": "Neutral Grip Lat Pulldown",
+    "aliases": [],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "cable_machine"
+    ],
+    "primaryMuscles": [
+      "back"
+    ],
+    "secondaryMuscles": [
+      "biceps"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "wide_grip_lat_pulldown",
+    "name": "Wide Grip Lat Pulldown",
+    "aliases": [],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "cable_machine"
+    ],
+    "primaryMuscles": [
+      "back"
+    ],
+    "secondaryMuscles": [
+      "biceps"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "straight_arm_pulldown",
+    "name": "Straight Arm Pulldown",
+    "aliases": [],
+    "exerciseType": "isolation",
+    "equipmentRequired": [
+      "cable_machine"
+    ],
+    "primaryMuscles": [
+      "back"
+    ],
+    "secondaryMuscles": [],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "barbell_overhead_press",
+    "name": "Barbell Overhead Press",
+    "aliases": [
+      "overhead press"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "barbell"
+    ],
+    "primaryMuscles": [
+      "shoulders"
+    ],
+    "secondaryMuscles": [
+      "triceps"
+    ],
+    "difficulty": "intermediate",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "dumbbell_shoulder_press",
+    "name": "Dumbbell Shoulder Press",
+    "aliases": [
+      "db shoulder press"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "dumbbells",
+      "bench"
+    ],
+    "primaryMuscles": [
+      "shoulders"
+    ],
+    "secondaryMuscles": [
+      "triceps"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "incline_dumbbell_shoulder_press",
+    "name": "Incline Dumbbell Shoulder Press",
+    "aliases": [
+      "incline db shoulder press"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "dumbbells",
+      "incline_bench"
+    ],
+    "primaryMuscles": [
+      "shoulders"
+    ],
+    "secondaryMuscles": [
+      "triceps"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "smith_machine_shoulder_press",
+    "name": "Smith Machine Shoulder Press",
+    "aliases": [
+      "smith shoulder press"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "smith_machine",
+      "bench"
+    ],
+    "primaryMuscles": [
+      "shoulders"
+    ],
+    "secondaryMuscles": [
+      "triceps"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "landmine_press",
+    "name": "Landmine Press",
+    "aliases": [],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "barbell",
+      "landmine_attachment"
+    ],
+    "primaryMuscles": [
+      "shoulders"
+    ],
+    "secondaryMuscles": [
+      "triceps"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "barbell_push_press",
+    "name": "Barbell Push Press",
+    "aliases": [
+      "push press"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "barbell"
+    ],
+    "primaryMuscles": [
+      "shoulders"
+    ],
+    "secondaryMuscles": [
+      "triceps"
+    ],
+    "difficulty": "intermediate",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "dumbbell_push_press",
+    "name": "Dumbbell Push Press",
+    "aliases": [
+      "db push press"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "dumbbells"
+    ],
+    "primaryMuscles": [
+      "shoulders"
+    ],
+    "secondaryMuscles": [
+      "triceps"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "barbell_thruster",
+    "name": "Barbell Thruster",
+    "aliases": [
+      "thruster"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "barbell"
+    ],
+    "primaryMuscles": [
+      "shoulders"
+    ],
+    "secondaryMuscles": [
+      "triceps",
+      "quadriceps",
+      "glutes"
+    ],
+    "difficulty": "intermediate",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "kettlebell_shoulder_press",
+    "name": "Kettlebell Shoulder Press",
+    "aliases": [],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "kettlebell"
+    ],
+    "primaryMuscles": [
+      "shoulders"
+    ],
+    "secondaryMuscles": [
+      "triceps"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "barbell_front_raise",
+    "name": "Barbell Front Raise",
+    "aliases": [
+      "front raise"
+    ],
+    "exerciseType": "isolation",
+    "equipmentRequired": [
+      "barbell"
+    ],
+    "primaryMuscles": [
+      "shoulders"
+    ],
+    "secondaryMuscles": [
+      "traps"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "dumbbell_front_raise",
+    "name": "Dumbbell Front Raise",
+    "aliases": [
+      "db front raise"
+    ],
+    "exerciseType": "isolation",
+    "equipmentRequired": [
+      "dumbbells"
+    ],
+    "primaryMuscles": [
+      "shoulders"
+    ],
+    "secondaryMuscles": [
+      "traps"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "cable_front_raise",
+    "name": "Cable Front Raise",
+    "aliases": [],
+    "exerciseType": "isolation",
+    "equipmentRequired": [
+      "cable_machine"
+    ],
+    "primaryMuscles": [
+      "shoulders"
+    ],
+    "secondaryMuscles": [
+      "traps"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "dumbbell_lateral_raise",
+    "name": "Dumbbell Lateral Raise",
+    "aliases": [
+      "db lateral raise"
+    ],
+    "exerciseType": "isolation",
+    "equipmentRequired": [
+      "dumbbells"
+    ],
+    "primaryMuscles": [
+      "shoulders"
+    ],
+    "secondaryMuscles": [
+      "traps"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "cable_lateral_raise",
+    "name": "Cable Lateral Raise",
+    "aliases": [],
+    "exerciseType": "isolation",
+    "equipmentRequired": [
+      "cable_machine"
+    ],
+    "primaryMuscles": [
+      "shoulders"
+    ],
+    "secondaryMuscles": [
+      "traps"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "machine_lateral_raise",
+    "name": "Machine Lateral Raise",
+    "aliases": [
+      "lateral raise"
+    ],
+    "exerciseType": "isolation",
+    "equipmentRequired": [
+      "lateral_raise_machine"
+    ],
+    "primaryMuscles": [
+      "shoulders"
+    ],
+    "secondaryMuscles": [
+      "traps"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "dumbbell_rear_delt_fly",
+    "name": "Dumbbell Rear Delt Fly",
+    "aliases": [
+      "db rear delt fly"
+    ],
+    "exerciseType": "isolation",
+    "equipmentRequired": [
+      "dumbbells",
+      "bench"
+    ],
+    "primaryMuscles": [
+      "shoulders"
+    ],
+    "secondaryMuscles": [
+      "traps"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "cable_rear_delt_fly",
+    "name": "Cable Rear Delt Fly",
+    "aliases": [],
+    "exerciseType": "isolation",
+    "equipmentRequired": [
+      "cable_machine",
+      "bench"
+    ],
+    "primaryMuscles": [
+      "shoulders"
+    ],
+    "secondaryMuscles": [
+      "traps"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "dumbbell_rear_delt_row",
+    "name": "Dumbbell Rear Delt Row",
+    "aliases": [
+      "db rear delt row"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "dumbbells"
+    ],
+    "primaryMuscles": [
+      "shoulders"
+    ],
+    "secondaryMuscles": [
+      "back",
+      "traps"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "dumbbell_bent_over_face_pull",
+    "name": "Dumbbell Bent Over Face Pull",
+    "aliases": [
+      "db bent over face pull"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "dumbbells"
+    ],
+    "primaryMuscles": [
+      "shoulders"
+    ],
+    "secondaryMuscles": [
+      "back",
+      "traps"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "barbell_upright_row",
+    "name": "Barbell Upright Row",
+    "aliases": [
+      "upright row"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "barbell"
+    ],
+    "primaryMuscles": [
+      "shoulders"
+    ],
+    "secondaryMuscles": [
+      "traps",
+      "biceps"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "barbell_curl",
+    "name": "Barbell Curl",
+    "aliases": [
+      "curl"
+    ],
+    "exerciseType": "isolation",
+    "equipmentRequired": [
+      "barbell"
+    ],
+    "primaryMuscles": [
+      "biceps"
+    ],
+    "secondaryMuscles": [
+      "forearms"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "ez_bar_curl",
+    "name": "EZ Bar Curl",
+    "aliases": [],
+    "exerciseType": "isolation",
+    "equipmentRequired": [
+      "ez_bar"
+    ],
+    "primaryMuscles": [
+      "biceps"
+    ],
+    "secondaryMuscles": [
+      "forearms"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "dumbbell_biceps_curl",
+    "name": "Dumbbell Biceps Curl",
+    "aliases": [
+      "db biceps curl"
+    ],
+    "exerciseType": "isolation",
+    "equipmentRequired": [
+      "dumbbells"
+    ],
+    "primaryMuscles": [
+      "biceps"
+    ],
+    "secondaryMuscles": [
+      "forearms"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "incline_dumbbell_curl",
+    "name": "Incline Dumbbell Curl",
+    "aliases": [
+      "incline db curl"
+    ],
+    "exerciseType": "isolation",
+    "equipmentRequired": [
+      "dumbbells"
+    ],
+    "primaryMuscles": [
+      "biceps"
+    ],
+    "secondaryMuscles": [
+      "forearms"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "cable_biceps_curl",
+    "name": "Cable Biceps Curl",
+    "aliases": [],
+    "exerciseType": "isolation",
+    "equipmentRequired": [
+      "cable_machine"
+    ],
+    "primaryMuscles": [
+      "biceps"
+    ],
+    "secondaryMuscles": [
+      "forearms"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "dumbbell_hammer_curl",
+    "name": "Dumbbell Hammer Curl",
+    "aliases": [
+      "db hammer curl"
+    ],
+    "exerciseType": "isolation",
+    "equipmentRequired": [
+      "dumbbells"
+    ],
+    "primaryMuscles": [
+      "biceps"
+    ],
+    "secondaryMuscles": [
+      "forearms"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "dumbbell_incline_hammer_curl",
+    "name": "Dumbbell Incline Hammer Curl",
+    "aliases": [
+      "db incline hammer curl"
+    ],
+    "exerciseType": "isolation",
+    "equipmentRequired": [
+      "dumbbells"
+    ],
+    "primaryMuscles": [
+      "biceps"
+    ],
+    "secondaryMuscles": [
+      "forearms"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "dumbbell_concentration_curl",
+    "name": "Dumbbell Concentration Curl",
+    "aliases": [
+      "db concentration curl"
+    ],
+    "exerciseType": "isolation",
+    "equipmentRequired": [
+      "dumbbells"
+    ],
+    "primaryMuscles": [
+      "biceps"
+    ],
+    "secondaryMuscles": [
+      "forearms"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "ez_bar_preacher_curl",
+    "name": "EZ Bar Preacher Curl",
+    "aliases": [],
+    "exerciseType": "isolation",
+    "equipmentRequired": [
+      "ez_bar"
+    ],
+    "primaryMuscles": [
+      "biceps"
+    ],
+    "secondaryMuscles": [
+      "forearms"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "barbell_preacher_curl",
+    "name": "Barbell Preacher Curl",
+    "aliases": [
+      "preacher curl"
+    ],
+    "exerciseType": "isolation",
+    "equipmentRequired": [
+      "barbell"
+    ],
+    "primaryMuscles": [
+      "biceps"
+    ],
+    "secondaryMuscles": [
+      "forearms"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "cable_preacher_curl",
+    "name": "Cable Preacher Curl",
+    "aliases": [],
+    "exerciseType": "isolation",
+    "equipmentRequired": [
+      "cable_machine"
+    ],
+    "primaryMuscles": [
+      "biceps"
+    ],
+    "secondaryMuscles": [
+      "forearms"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "biceps_curl_machine",
+    "name": "Biceps Curl Machine",
+    "aliases": [],
+    "exerciseType": "isolation",
+    "equipmentRequired": [
+      "biceps_curl_machine"
+    ],
+    "primaryMuscles": [
+      "biceps"
+    ],
+    "secondaryMuscles": [
+      "forearms"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "cable_triceps_pushdown",
+    "name": "Cable Triceps Pushdown",
+    "aliases": [],
+    "exerciseType": "isolation",
+    "equipmentRequired": [
+      "cable_machine"
+    ],
+    "primaryMuscles": [
+      "triceps"
+    ],
+    "secondaryMuscles": [],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "cable_overhead_triceps_extension",
+    "name": "Cable Overhead Triceps Extension",
+    "aliases": [],
+    "exerciseType": "isolation",
+    "equipmentRequired": [
+      "cable_machine"
+    ],
+    "primaryMuscles": [
+      "triceps"
+    ],
+    "secondaryMuscles": [],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "dumbbell_triceps_extension",
+    "name": "Dumbbell Triceps Extension",
+    "aliases": [
+      "db triceps extension"
+    ],
+    "exerciseType": "isolation",
+    "equipmentRequired": [
+      "dumbbells"
+    ],
+    "primaryMuscles": [
+      "triceps"
+    ],
+    "secondaryMuscles": [],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "dumbbell_overhead_triceps_extension",
+    "name": "Dumbbell Overhead Triceps Extension",
+    "aliases": [
+      "db overhead triceps extension"
+    ],
+    "exerciseType": "isolation",
+    "equipmentRequired": [
+      "dumbbells"
+    ],
+    "primaryMuscles": [
+      "triceps"
+    ],
+    "secondaryMuscles": [],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "barbell_overhead_triceps_extension",
+    "name": "Barbell Overhead Triceps Extension",
+    "aliases": [
+      "overhead triceps extension"
+    ],
+    "exerciseType": "isolation",
+    "equipmentRequired": [
+      "barbell"
+    ],
+    "primaryMuscles": [
+      "triceps"
+    ],
+    "secondaryMuscles": [],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "barbell_skullcrusher",
+    "name": "Barbell Skullcrusher",
+    "aliases": [
+      "skullcrusher"
+    ],
+    "exerciseType": "isolation",
+    "equipmentRequired": [
+      "barbell",
+      "bench"
+    ],
+    "primaryMuscles": [
+      "triceps"
+    ],
+    "secondaryMuscles": [],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "dumbbell_skullcrusher",
+    "name": "Dumbbell Skullcrusher",
+    "aliases": [
+      "db skullcrusher"
+    ],
+    "exerciseType": "isolation",
+    "equipmentRequired": [
+      "dumbbells",
+      "bench"
+    ],
+    "primaryMuscles": [
+      "triceps"
+    ],
+    "secondaryMuscles": [],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "machine_triceps_extension",
+    "name": "Machine Triceps Extension",
+    "aliases": [
+      "triceps extension"
+    ],
+    "exerciseType": "isolation",
+    "equipmentRequired": [
+      "triceps_extension_machine"
+    ],
+    "primaryMuscles": [
+      "triceps"
+    ],
+    "secondaryMuscles": [],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "triceps_dip_machine",
+    "name": "Triceps Dip Machine",
+    "aliases": [],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "dip_machine"
+    ],
+    "primaryMuscles": [
+      "triceps"
+    ],
+    "secondaryMuscles": [],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "jm_press",
+    "name": "JM Press",
+    "aliases": [],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "barbell",
+      "bench"
+    ],
+    "primaryMuscles": [
+      "triceps"
+    ],
+    "secondaryMuscles": [],
+    "difficulty": "intermediate",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "incline_dumbbell_triceps_extension",
+    "name": "Incline Dumbbell Triceps Extension",
+    "aliases": [
+      "incline db triceps extension"
+    ],
+    "exerciseType": "isolation",
+    "equipmentRequired": [
+      "dumbbells"
+    ],
+    "primaryMuscles": [
+      "triceps"
+    ],
+    "secondaryMuscles": [],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "barbell_squat",
+    "name": "Barbell Squat",
+    "aliases": [
+      "squat"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "barbell",
+      "rack"
+    ],
+    "primaryMuscles": [
+      "quads"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "hamstrings"
+    ],
+    "difficulty": "intermediate",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "barbell_front_squat",
+    "name": "Barbell Front Squat",
+    "aliases": [
+      "front squat"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "barbell",
+      "rack"
+    ],
+    "primaryMuscles": [
+      "quads"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "hamstrings"
+    ],
+    "difficulty": "intermediate",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "clean_grip_front_squat",
+    "name": "Clean Grip Front Squat",
+    "aliases": [],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "barbell",
+      "rack"
+    ],
+    "primaryMuscles": [
+      "quads"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "hamstrings"
+    ],
+    "difficulty": "intermediate",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "barbell_low_bar_squat",
+    "name": "Barbell Low Bar Squat",
+    "aliases": [
+      "low bar squat"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "barbell",
+      "rack"
+    ],
+    "primaryMuscles": [
+      "glutes"
+    ],
+    "secondaryMuscles": [
+      "quads",
+      "hamstrings"
+    ],
+    "difficulty": "intermediate",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "hack_squat_machine",
+    "name": "Hack Squat Machine",
+    "aliases": [],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "hack_squat_machine"
+    ],
+    "primaryMuscles": [
+      "quads"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "hamstrings"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "dumbbell_goblet_squat",
+    "name": "Dumbbell Goblet Squat",
+    "aliases": [
+      "db goblet squat"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "dumbbells"
+    ],
+    "primaryMuscles": [
+      "quads"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "hamstrings"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "kettlebell_goblet_squat",
+    "name": "Kettlebell Goblet Squat",
+    "aliases": [],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "kettlebell"
+    ],
+    "primaryMuscles": [
+      "quads"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "hamstrings"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "dumbbell_front_squat",
+    "name": "Dumbbell Front Squat",
+    "aliases": [
+      "db front squat"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "dumbbells"
+    ],
+    "primaryMuscles": [
+      "quads"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "hamstrings"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "kettlebell_front_squat",
+    "name": "Kettlebell Front Squat",
+    "aliases": [],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "kettlebell"
+    ],
+    "primaryMuscles": [
+      "quads"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "hamstrings"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "smith_machine_bulgarian_split_squat",
+    "name": "Smith Machine Bulgarian Split Squat",
+    "aliases": [
+      "smith bulgarian split squat"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "smith_machine",
+      "bench"
+    ],
+    "primaryMuscles": [
+      "quads"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "hamstrings"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "dumbbell_bulgarian_split_squat",
+    "name": "Dumbbell Bulgarian Split Squat",
+    "aliases": [
+      "db bulgarian split squat"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "dumbbells",
+      "bench"
+    ],
+    "primaryMuscles": [
+      "quads"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "hamstrings"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "barbell_bulgarian_split_squat",
+    "name": "Barbell Bulgarian Split Squat",
+    "aliases": [
+      "bulgarian split squat"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "barbell",
+      "bench"
+    ],
+    "primaryMuscles": [
+      "quads"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "hamstrings"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "bodyweight_bulgarian_split_squat",
+    "name": "Bodyweight Bulgarian Split Squat",
+    "aliases": [],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "bench"
+    ],
+    "primaryMuscles": [
+      "quads"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "hamstrings"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "barbell_split_squat",
+    "name": "Barbell Split Squat",
+    "aliases": [
+      "split squat"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "barbell"
+    ],
+    "primaryMuscles": [
+      "quads"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "hamstrings"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "dumbbell_split_squat",
+    "name": "Dumbbell Split Squat",
+    "aliases": [
+      "db split squat"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "dumbbells"
+    ],
+    "primaryMuscles": [
+      "quads"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "hamstrings"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "spanish_split_squat",
+    "name": "Spanish Split Squat",
+    "aliases": [],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "resistance_band"
+    ],
+    "primaryMuscles": [
+      "quads"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "hamstrings"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "dumbbell_lunge",
+    "name": "Dumbbell Lunge",
+    "aliases": [
+      "db lunge"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "dumbbells"
+    ],
+    "primaryMuscles": [
+      "quads"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "hamstrings"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "barbell_lunge",
+    "name": "Barbell Lunge",
+    "aliases": [
+      "lunge"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "barbell"
+    ],
+    "primaryMuscles": [
+      "quads"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "hamstrings"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "bodyweight_forward_lunge",
+    "name": "Bodyweight Forward Lunge",
+    "aliases": [],
+    "exerciseType": "compound",
+    "equipmentRequired": [],
+    "primaryMuscles": [
+      "quads"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "hamstrings"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "bodyweight_reverse_lunge",
+    "name": "Bodyweight Reverse Lunge",
+    "aliases": [],
+    "exerciseType": "compound",
+    "equipmentRequired": [],
+    "primaryMuscles": [
+      "quads"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "hamstrings"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "barbell_rear_lunge",
+    "name": "Barbell Rear Lunge",
+    "aliases": [
+      "rear lunge"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "barbell"
+    ],
+    "primaryMuscles": [
+      "quads"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "hamstrings"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "dumbbell_rear_lunge",
+    "name": "Dumbbell Rear Lunge",
+    "aliases": [
+      "db rear lunge"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "dumbbells"
+    ],
+    "primaryMuscles": [
+      "quads"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "hamstrings"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "side_lunge",
+    "name": "Side Lunge",
+    "aliases": [],
+    "exerciseType": "compound",
+    "equipmentRequired": [],
+    "primaryMuscles": [
+      "quads"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "hamstrings",
+      "adductors"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "landmine_lateral_lunge",
+    "name": "Landmine Lateral Lunge",
+    "aliases": [],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "barbell",
+      "landmine_attachment"
+    ],
+    "primaryMuscles": [
+      "quads"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "hamstrings",
+      "adductors"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "cossack_squat",
+    "name": "Cossack Squat",
+    "aliases": [],
+    "exerciseType": "compound",
+    "equipmentRequired": [],
+    "primaryMuscles": [
+      "quads"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "hamstrings",
+      "adductors"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "barbell_deadlift",
+    "name": "Barbell Deadlift",
+    "aliases": [
+      "deadlift"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "barbell"
+    ],
+    "primaryMuscles": [
+      "hamstrings"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "back",
+      "traps"
+    ],
+    "difficulty": "intermediate",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "trap_bar_deadlift",
+    "name": "Trap Bar Deadlift",
+    "aliases": [],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "trap_bar"
+    ],
+    "primaryMuscles": [
+      "hamstrings"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "back",
+      "traps"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "barbell_sumo_deadlift",
+    "name": "Barbell Sumo Deadlift",
+    "aliases": [
+      "sumo deadlift"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "barbell"
+    ],
+    "primaryMuscles": [
+      "hamstrings"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "back",
+      "traps",
+      "adductors"
+    ],
+    "difficulty": "intermediate",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "barbell_romanian_deadlift",
+    "name": "Barbell Romanian Deadlift",
+    "aliases": [
+      "romanian deadlift"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "barbell"
+    ],
+    "primaryMuscles": [
+      "hamstrings"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "back",
+      "traps"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "dumbbell_romanian_deadlift",
+    "name": "Dumbbell Romanian Deadlift",
+    "aliases": [
+      "db romanian deadlift"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "dumbbells"
+    ],
+    "primaryMuscles": [
+      "hamstrings"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "back",
+      "traps"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "kettlebell_romanian_deadlift",
+    "name": "Kettlebell Romanian Deadlift",
+    "aliases": [],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "kettlebell"
+    ],
+    "primaryMuscles": [
+      "hamstrings"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "back",
+      "traps"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "barbell_stiff_leg_deadlift",
+    "name": "Barbell Stiff-Leg Deadlift",
+    "aliases": [
+      "stiff-leg deadlift"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "barbell"
+    ],
+    "primaryMuscles": [
+      "hamstrings"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "back",
+      "traps"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "barbell_good_morning",
+    "name": "Barbell Good Morning",
+    "aliases": [
+      "good morning"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "barbell"
+    ],
+    "primaryMuscles": [
+      "hamstrings"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "back",
+      "traps"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "roman_chair_back_extension",
+    "name": "Roman Chair Back Extension",
+    "aliases": [],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "roman_chair"
+    ],
+    "primaryMuscles": [
+      "glutes",
+      "hamstrings"
+    ],
+    "secondaryMuscles": [
+      "erector_spinae"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "back_extension_machine",
+    "name": "Back Extension Machine",
+    "aliases": [],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "back_extension_machine"
+    ],
+    "primaryMuscles": [
+      "glutes",
+      "hamstrings"
+    ],
+    "secondaryMuscles": [
+      "erector_spinae"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "barbell_hip_thrust",
+    "name": "Barbell Hip Thrust",
+    "aliases": [
+      "hip thrust"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "barbell",
+      "bench"
+    ],
+    "primaryMuscles": [
+      "glutes"
+    ],
+    "secondaryMuscles": [
+      "hamstrings"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "dumbbell_hip_thrust",
+    "name": "Dumbbell Hip Thrust",
+    "aliases": [
+      "db hip thrust"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "dumbbells",
+      "bench"
+    ],
+    "primaryMuscles": [
+      "glutes"
+    ],
+    "secondaryMuscles": [
+      "hamstrings"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "bodyweight_hip_thrust",
+    "name": "Bodyweight Hip Thrust",
+    "aliases": [],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "bench"
+    ],
+    "primaryMuscles": [
+      "glutes"
+    ],
+    "secondaryMuscles": [
+      "hamstrings"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "barbell_glute_bridge",
+    "name": "Barbell Glute Bridge",
+    "aliases": [
+      "glute bridge"
+    ],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "barbell"
+    ],
+    "primaryMuscles": [
+      "glutes"
+    ],
+    "secondaryMuscles": [
+      "hamstrings"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "bodyweight_glute_bridge",
+    "name": "Bodyweight Glute Bridge",
+    "aliases": [],
+    "exerciseType": "compound",
+    "equipmentRequired": [],
+    "primaryMuscles": [
+      "glutes"
+    ],
+    "secondaryMuscles": [
+      "hamstrings"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "barbell_kas_glute_bridge",
+    "name": "Barbell Kas Glute Bridge",
+    "aliases": [
+      "kas glute bridge"
+    ],
+    "exerciseType": "isolation",
+    "equipmentRequired": [
+      "barbell"
+    ],
+    "primaryMuscles": [
+      "glutes"
+    ],
+    "secondaryMuscles": [
+      "hamstrings"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "banded_hip_thrust",
+    "name": "Banded Hip Thrust",
+    "aliases": [],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "resistance_band",
+      "bench"
+    ],
+    "primaryMuscles": [
+      "glutes"
+    ],
+    "secondaryMuscles": [
+      "hamstrings"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "feet_elevated_glute_bridge",
+    "name": "Feet-Elevated Glute Bridge",
+    "aliases": [],
+    "exerciseType": "isolation",
+    "equipmentRequired": [
+      "bench"
+    ],
+    "primaryMuscles": [
+      "glutes"
+    ],
+    "secondaryMuscles": [
+      "hamstrings"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "frog_pump",
+    "name": "Frog Pump",
+    "aliases": [],
+    "exerciseType": "isolation",
+    "equipmentRequired": [],
+    "primaryMuscles": [
+      "glutes"
+    ],
+    "secondaryMuscles": [
+      "hamstrings"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "cable_pull_through",
+    "name": "Cable Pull Through",
+    "aliases": [],
+    "exerciseType": "isolation",
+    "equipmentRequired": [
+      "cable_machine"
+    ],
+    "primaryMuscles": [
+      "glutes"
+    ],
+    "secondaryMuscles": [
+      "hamstrings"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "standing_calf_raise",
+    "name": "Standing Calf Raise",
+    "aliases": [],
+    "exerciseType": "isolation",
+    "equipmentRequired": [],
+    "primaryMuscles": [
+      "calves"
+    ],
+    "secondaryMuscles": [],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "seated_calf_raise",
+    "name": "Seated Calf Raise",
+    "aliases": [],
+    "exerciseType": "isolation",
+    "equipmentRequired": [],
+    "primaryMuscles": [
+      "calves"
+    ],
+    "secondaryMuscles": [],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "barbell_calf_raise",
+    "name": "Barbell Calf Raise",
+    "aliases": [
+      "calf raise"
+    ],
+    "exerciseType": "isolation",
+    "equipmentRequired": [
+      "barbell"
+    ],
+    "primaryMuscles": [
+      "calves"
+    ],
+    "secondaryMuscles": [],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "dumbbell_calf_raise",
+    "name": "Dumbbell Calf Raise",
+    "aliases": [
+      "db calf raise"
+    ],
+    "exerciseType": "isolation",
+    "equipmentRequired": [
+      "dumbbells"
+    ],
+    "primaryMuscles": [
+      "calves"
+    ],
+    "secondaryMuscles": [],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "smith_machine_calf_raise",
+    "name": "Smith Machine Calf Raise",
+    "aliases": [
+      "smith calf raise"
+    ],
+    "exerciseType": "isolation",
+    "equipmentRequired": [
+      "smith_machine"
+    ],
+    "primaryMuscles": [
+      "calves"
+    ],
+    "secondaryMuscles": [],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "donkey_calf_raise",
+    "name": "Donkey Calf Raise",
+    "aliases": [],
+    "exerciseType": "isolation",
+    "equipmentRequired": [],
+    "primaryMuscles": [
+      "calves"
+    ],
+    "secondaryMuscles": [],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "deficit_calf_raise",
+    "name": "Deficit Calf Raise",
+    "aliases": [],
+    "exerciseType": "isolation",
+    "equipmentRequired": [],
+    "primaryMuscles": [
+      "calves"
+    ],
+    "secondaryMuscles": [],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "hack_squat_calf_raise",
+    "name": "Hack Squat Calf Raise",
+    "aliases": [],
+    "exerciseType": "isolation",
+    "equipmentRequired": [
+      "hack_squat_machine"
+    ],
+    "primaryMuscles": [
+      "quads"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "hamstrings"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "ab_wheel_rollout",
+    "name": "Ab Wheel Rollout",
+    "aliases": [],
+    "exerciseType": "bodyweight",
+    "equipmentRequired": [
+      "ab_wheel"
+    ],
+    "primaryMuscles": [
+      "core"
+    ],
+    "secondaryMuscles": [],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "abdominal_crunches_machine",
+    "name": "Abdominal Crunches Machine",
+    "aliases": [],
+    "exerciseType": "compound",
+    "equipmentRequired": [
+      "ab_machine"
+    ],
+    "primaryMuscles": [
+      "core"
+    ],
+    "secondaryMuscles": [],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "crunch",
+    "name": "Crunch",
+    "aliases": [],
+    "exerciseType": "bodyweight",
+    "equipmentRequired": [],
+    "primaryMuscles": [
+      "core"
+    ],
+    "secondaryMuscles": [],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "bicycle_crunch",
+    "name": "Bicycle Crunch",
+    "aliases": [],
+    "exerciseType": "bodyweight",
+    "equipmentRequired": [],
+    "primaryMuscles": [
+      "core"
+    ],
+    "secondaryMuscles": [],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "cable_crunch",
+    "name": "Cable Crunch",
+    "aliases": [],
+    "exerciseType": "isolation",
+    "equipmentRequired": [
+      "cable_machine"
+    ],
+    "primaryMuscles": [
+      "core"
+    ],
+    "secondaryMuscles": [],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "oblique_crunch",
+    "name": "Oblique Crunch",
+    "aliases": [],
+    "exerciseType": "bodyweight",
+    "equipmentRequired": [],
+    "primaryMuscles": [
+      "core"
+    ],
+    "secondaryMuscles": [],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "hanging_leg_raise",
+    "name": "Hanging Leg Raise",
+    "aliases": [],
+    "exerciseType": "bodyweight",
+    "equipmentRequired": [
+      "pull_up_bar"
+    ],
+    "primaryMuscles": [
+      "core"
+    ],
+    "secondaryMuscles": [],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "hanging_oblique_raise",
+    "name": "Hanging Oblique Raise",
+    "aliases": [],
+    "exerciseType": "isolation",
+    "equipmentRequired": [
+      "pull_up_bar"
+    ],
+    "primaryMuscles": [
+      "other"
+    ],
+    "secondaryMuscles": [],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "weighted_crunch",
+    "name": "Weighted Crunch",
+    "aliases": [],
+    "exerciseType": "isolation",
+    "equipmentRequired": [
+      "weight_plate"
+    ],
+    "primaryMuscles": [
+      "core"
+    ],
+    "secondaryMuscles": [],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "sit_up",
+    "name": "Sit Up",
+    "aliases": [],
+    "exerciseType": "bodyweight",
+    "equipmentRequired": [],
+    "primaryMuscles": [
+      "core"
+    ],
+    "secondaryMuscles": [],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "weighted_sit_up",
+    "name": "Weighted Sit Up",
+    "aliases": [],
+    "exerciseType": "isolation",
+    "equipmentRequired": [
+      "weight_plate"
+    ],
+    "primaryMuscles": [
+      "core"
+    ],
+    "secondaryMuscles": [],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "decline_sit_up",
+    "name": "Decline Sit Up",
+    "aliases": [],
+    "exerciseType": "bodyweight",
+    "equipmentRequired": [
+      "decline_bench"
+    ],
+    "primaryMuscles": [
+      "core"
+    ],
+    "secondaryMuscles": [],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "weighted_decline_sit_up",
+    "name": "Weighted Decline Sit Up",
+    "aliases": [],
+    "exerciseType": "isolation",
+    "equipmentRequired": [
+      "decline_bench",
+      "weight_plate"
+    ],
+    "primaryMuscles": [
+      "core"
+    ],
+    "secondaryMuscles": [],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "russian_twist",
+    "name": "Russian Twist",
+    "aliases": [],
+    "exerciseType": "bodyweight",
+    "equipmentRequired": [],
+    "primaryMuscles": [
+      "core"
+    ],
+    "secondaryMuscles": [],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "medicine_ball_russian_twist",
+    "name": "Medicine Ball Russian Twist",
+    "aliases": [],
+    "exerciseType": "isolation",
+    "equipmentRequired": [
+      "medicine_ball"
+    ],
+    "primaryMuscles": [
+      "core"
+    ],
+    "secondaryMuscles": [],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "forearm_plank",
+    "name": "Forearm Plank",
+    "aliases": [],
+    "exerciseType": "bodyweight",
+    "equipmentRequired": [],
+    "primaryMuscles": [
+      "core"
+    ],
+    "secondaryMuscles": [],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "long_lever_plank",
+    "name": "Long Lever Plank",
+    "aliases": [],
+    "exerciseType": "bodyweight",
+    "equipmentRequired": [],
+    "primaryMuscles": [
+      "core"
+    ],
+    "secondaryMuscles": [],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "side_plank",
+    "name": "Side Plank",
+    "aliases": [],
+    "exerciseType": "bodyweight",
+    "equipmentRequired": [],
+    "primaryMuscles": [
+      "core"
+    ],
+    "secondaryMuscles": [],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "dumbbell_farmer_carry",
+    "name": "Dumbbell Farmer Carry",
+    "aliases": [
+      "db farmer carry"
+    ],
+    "exerciseType": "conditioning",
+    "equipmentRequired": [
+      "dumbbells"
+    ],
+    "primaryMuscles": [
+      "back"
+    ],
+    "secondaryMuscles": [
+      "forearms",
+      "core"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "exerciseId": "rowing_machine",
+    "name": "Rowing Machine",
+    "aliases": [],
+    "exerciseType": "conditioning",
+    "equipmentRequired": [
+      "rowing_machine"
+    ],
+    "primaryMuscles": [
+      "back"
+    ],
+    "secondaryMuscles": [
+      "biceps"
+    ],
+    "difficulty": "beginner",
+    "imageUrl": "",
+    "videoUrl": ""
+  }
+]
