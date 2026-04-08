@@ -3,6 +3,7 @@ import dotenv from "dotenv";
 import cors from "cors";
 import mongoose from "mongoose";
 import exerciseRoutes from "./routes/exerciseRoutes.js";
+import authRoutes from "./routes/authRoutes.js";
 
 dotenv.config();
 
@@ -16,6 +17,7 @@ app.use(cors());
 app.use(express.json());
 
 app.use("/api/exercises", exerciseRoutes);
+app.use("/api/auth", authRoutes);
 
 app.get("/", (req, res) => {
   res.send("API is running...");
