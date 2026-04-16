@@ -20,17 +20,6 @@ export default function AuthCard({
       <div className="absolute left-[-120px] top-[80px] h-[380px] w-[380px] rounded-full bg-[#3B82F6]/10 blur-[120px]" />
       <div className="absolute bottom-[-120px] right-[140px] h-[320px] w-[320px] rounded-full bg-[#A858B0]/10 blur-[120px]" />
 
-      {variant === "login" && (
-        <div className="pointer-events-none absolute right-[6%] top-1/2 hidden -translate-y-1/2 xl:block">
-          <div className="text-right text-[86px] font-extrabold uppercase leading-[0.95] tracking-tight text-white/8">
-            TRAINING
-            <br />
-            FOCUS
-            <br />
-            PROGRESS
-          </div>
-        </div>
-      )}
 
       <div className="relative z-10 flex min-h-screen items-center justify-center px-6">
         <div className="w-full max-w-md rounded-[36px] border border-white/5 bg-[#171717]/95 px-10 py-10 shadow-[0_20px_80px_rgba(0,0,0,0.45)] backdrop-blur-sm">
@@ -39,7 +28,7 @@ export default function AuthCard({
               <Dumbbell className="h-9 w-9 text-black" />
             </div>
 
-            <h1 className="text-5xl font-black italic tracking-tight">{title}</h1>
+            <h1 className="text-3xl sm:text-5xl font-black italic tracking-tight">{title}</h1>
             <p className="mx-auto mt-4 max-w-xs text-lg leading-8 text-zinc-400">
               {subtitle}
             </p>

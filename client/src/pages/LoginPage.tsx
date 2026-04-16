@@ -13,7 +13,7 @@ export default function LoginPage() {
   const [errorMessage, setErrorMessage] = useState("");
   const [isLoading, setIsLoading] = useState(false);
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.SubmitEvent) => {
     e.preventDefault();
     setErrorMessage("");
     setIsLoading(true);
@@ -46,7 +46,7 @@ export default function LoginPage() {
         <InputField
           label="Email Address"
           type="email"
-          placeholder="athlete@gymtracker.com"
+          placeholder="email@gymtracker.com"
           value={email}
           onChange={setEmail}
           icon={Mail}

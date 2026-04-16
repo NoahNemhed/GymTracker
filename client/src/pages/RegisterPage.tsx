@@ -19,6 +19,21 @@ export default function RegisterPage() {
     e.preventDefault();
     setErrorMessage("");
 
+    const trimmedUsername = username.trim();
+    const trimmedEmail = email.trim().toLowerCase();
+
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    if (!trimmedUsername) {
+      setErrorMessage("Name is required");
+      return;
+    }
+
+    if (!emailRegex.test(trimmedEmail)) {
+      setErrorMessage("Please enter a valid email address");
+      return;
+    }
+
     if (password !== confirmPassword) {
       setErrorMessage("Passwords do not match");
       return;
@@ -27,7 +42,11 @@ export default function RegisterPage() {
     setIsLoading(true);
 
     try {
-      const data = await registerUser({ username, email, password });
+      const data = await registerUser({
+        username: trimmedUsername,
+        email: trimmedEmail,
+        password,
+      });
 
       localStorage.setItem("token", data.token);
       localStorage.setItem("user", JSON.stringify(data));
@@ -62,14 +81,14 @@ export default function RegisterPage() {
         <InputField
           label="Email Address"
           type="email"
-          placeholder="athlete@gymtracker.com"
+          placeholder="JohnDoe@hotmail.com"
           value={email}
           onChange={setEmail}
           icon={AtSign}
         />
 
         <InputField
-          label="Secure Password"
+          label="Password"
           type="password"
           placeholder="••••••••"
           value={password}
