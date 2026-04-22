@@ -1,6 +1,8 @@
 import mongoose from "mongoose";
 import Program from "../models/Program.js";
 
+// create one program
+
 export const createProgram = async (req, res) => {
   try {
     const { userId, name, description, goal, daysPerWeek, isActive, days } = req.body;
@@ -15,6 +17,7 @@ export const createProgram = async (req, res) => {
       return res.status(400).json({ message: "Invalid userId" });
     }
 
+    // check if program with name already exists
     const existingProgram = await Program.findOne({
       userId,
       name: name.trim(),
@@ -26,6 +29,15 @@ export const createProgram = async (req, res) => {
         .json({ message: "Program with this name already exists for this user" });
     }
 
+    // if another program is active already set it as not active
+    if (isActive === true) {
+      await Program.updateMany(
+        { userId: req.user.userId },
+        { $set: { isActive: false } }
+      );
+    }
+
+    // create program
     const program = await Program.create({
       userId,
       name,
@@ -42,6 +54,7 @@ export const createProgram = async (req, res) => {
   }
 };
 
+// returns all programs
 export const getPrograms = async (req, res) => {
   try {
     const { userId, isActive, goal } = req.query;
@@ -59,6 +72,7 @@ export const getPrograms = async (req, res) => {
   }
 };
 
+// get one program by id
 export const getProgramById = async (req, res) => {
   try {
     const program = await Program.findById(req.params.id);
@@ -73,6 +87,7 @@ export const getProgramById = async (req, res) => {
   }
 };
 
+// update existing program
 export const updateProgram = async (req, res) => {
   try {
     const { name, description, goal, daysPerWeek, isActive, days } = req.body;

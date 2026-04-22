@@ -73,12 +73,48 @@ export type ProgramType = {
   days: ProgramDay[];
 };
 
+
+export type CreateProgramPayload = {
+  userId: number;
+  name: string;
+  description: string;
+  goal: "hypertrophy" | "strength" | "endurance" | "general_fitness";
+  daysPerWeek: number;
+  isActive: boolean;
+  days: {
+    name: string;
+    focus: string;
+    dayOrder: number;
+    exercises: {
+      exerciseId: string;
+      targetSets: number;
+      repRange: string;
+      restSeconds: number;
+      order: number;
+    }[];
+  }[];
+};
+
+
 export const getPrograms = async (): Promise<ProgramType[]> => {
   const response = await api.get("/programs");
-  return response.data;
+  return response.data; 
 };
 
 export const getProgramById = async (id: string): Promise<ProgramType> => {
   const response = await api.get(`/programs/${id}`);
+  return response.data;
+};
+
+
+export const createProgram = async (
+  payload: CreateProgramPayload
+): Promise<ProgramType> => {
+  const response = await api.post("/programs", payload);
+  return response.data;
+};
+
+export const deleteProgram = async (id: string) => {
+  const response = await api.delete(`/programs/${id}`);
   return response.data;
 };

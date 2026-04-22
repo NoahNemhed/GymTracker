@@ -3,11 +3,24 @@ import type { ProgramType } from "../../lib/api";
 
 type Props = {
   program: ProgramType;
+  onDelete: (id: string) => void;
 };
 
-export default function ProgramOverviewCard({ program }: Props) {
+export default function ProgramOverviewCard({ program, onDelete  }: Props) {
   const totalExercises =
     program.days?.reduce((sum, day) => sum + (day.exercises?.length || 0), 0) || 0;
+
+
+
+    const handleDelete = () => {
+      const confirmed = window.confirm(
+        `Delete "${program.name}"?`
+      );
+
+      if (!confirmed) return;
+
+      onDelete(program._id);
+    };
 
   return (
     <article className="rounded-[32px] border border-zinc-800 bg-gradient-to-br from-gray-950 via-[#0b0f1a] to-black p-6 shadow-[0_20px_60px_rgba(0,0,0,0.45)]">
@@ -64,7 +77,7 @@ export default function ProgramOverviewCard({ program }: Props) {
           <NavLink to={`/programs/${program._id}`}>View</NavLink>
         </button>
 
-        <button className="rounded-full border border-zinc-700 px-4 py-2.5 text-sm font-medium text-zinc-300 transition hover:bg-zinc-800">
+        <button  onClick={handleDelete} className="rounded-full border border-zinc-700 px-4 py-2.5 text-sm font-medium text-zinc-300 transition hover:bg-zinc-800">
           Delete
         </button>
       </div>
