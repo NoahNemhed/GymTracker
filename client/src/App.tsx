@@ -5,6 +5,8 @@ import HomePage from "./pages/HomePage";
 import './App.css'
 import ProtectedRoute from "./components/ProtectedRoute";
 import ProgramsPage from "./pages/ProgramsPage";
+import ProgramDetailPage from './pages/ProgramDetailPage'
+
 
 function App() {
   
@@ -19,6 +21,7 @@ function App() {
         <Route element={<ProtectedRoute />}>
           <Route path="/home" element={<HomePage />} />
           <Route path="/programs" element={<ProgramsPage />} />
+          <Route path="/programs/:id" element={<ProgramDetailPage />} />
         </Route>
       </Routes>
     </BrowserRouter>

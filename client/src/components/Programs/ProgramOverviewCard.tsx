@@ -1,3 +1,4 @@
+import { NavLink } from "react-router";
 import type { ProgramType } from "../../lib/api";
 
 type Props = {
@@ -60,11 +61,11 @@ export default function ProgramOverviewCard({ program }: Props) {
 
       <div className="mt-6 flex gap-3">
         <button className="rounded-full bg-[#85ADFF] px-4 py-2.5 text-sm font-semibold text-black transition hover:opacity-90">
-          View
+          <NavLink to={`/programs/${program._id}`}>View</NavLink>
         </button>
 
         <button className="rounded-full border border-zinc-700 px-4 py-2.5 text-sm font-medium text-zinc-300 transition hover:bg-zinc-800">
-          Edit
+          Delete
         </button>
       </div>
     </article>

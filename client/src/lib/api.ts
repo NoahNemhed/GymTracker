@@ -77,3 +77,8 @@ export const getPrograms = async (): Promise<ProgramType[]> => {
   const response = await api.get("/programs");
   return response.data;
 };
+
+export const getProgramById = async (id: string): Promise<ProgramType> => {
+  const response = await api.get(`/programs/${id}`);
+  return response.data;
+};
