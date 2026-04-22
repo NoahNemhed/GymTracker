@@ -5,7 +5,6 @@ import { Menu, X } from "lucide-react";
 const navItems = [
   { label: "Dashboard", to: "/home" },
   { label: "Programs", to: "/programs" },
-  { label: "Analytics", to: "/analytics" },
 ];
 
 export default function Navbar() {

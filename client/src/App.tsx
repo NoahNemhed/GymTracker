@@ -4,6 +4,7 @@ import RegisterPage from "./pages/RegisterPage";
 import HomePage from "./pages/HomePage";
 import './App.css'
 import ProtectedRoute from "./components/ProtectedRoute";
+import ProgramsPage from "./pages/ProgramsPage";
 
 function App() {
   
@@ -17,6 +18,7 @@ function App() {
         
         <Route element={<ProtectedRoute />}>
           <Route path="/home" element={<HomePage />} />
+          <Route path="/programs" element={<ProgramsPage />} />
         </Route>
       </Routes>
     </BrowserRouter>

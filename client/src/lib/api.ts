@@ -9,6 +9,19 @@ export const api = axios.create({
   },
 });
 
+{/* HANDLE JWT TOKEN */}
+api.interceptors.request.use((config) => {
+  const token = localStorage.getItem("token");
+
+  if (token) {
+    config.headers.Authorization = `Bearer ${token}`;
+  }
+
+  return config;
+});
+
+{/* LOGIN & REGISER */}
+
 export type RegisterPayload = {
   username: string;
   email: string;
@@ -27,5 +40,40 @@ export const registerUser = async (payload: RegisterPayload) => {
 
 export const loginUser = async (payload: LoginPayload) => {
   const response = await api.post("/auth/login", payload);
+  return response.data;
+};
+
+
+
+{/* PROGRAMS */}
+export type ProgramExercise = {
+  exerciseId: string;
+  targetSets: number;
+  repRange: string;
+  restSeconds: number;
+  order: number;
+  _id?: string;
+};
+
+export type ProgramDay = {
+  name: string;
+  focus: string;
+  dayOrder: number;
+  exercises: ProgramExercise[];
+  _id?: string;
+};
+
+export type ProgramType = {
+  _id: string;
+  name: string;
+  description?: string;
+  goal: string;
+  daysPerWeek: number;
+  isActive: boolean;
+  days: ProgramDay[];
+};
+
+export const getPrograms = async (): Promise<ProgramType[]> => {
+  const response = await api.get("/programs");
   return response.data;
 };

@@ -2,8 +2,8 @@ import { Link, useNavigate } from "react-router";
 import { useState } from "react";
 import axios from "axios";
 import { Lock, Mail } from "lucide-react";
-import AuthCard from "../components/AuthCard";
-import InputField from "../components/InputField";
+import AuthCard from "../components/Auth/AuthCard";
+import InputField from "../components/Auth/InputField";
 import { loginUser } from "../lib/api";
 
 export default function LoginPage() {
