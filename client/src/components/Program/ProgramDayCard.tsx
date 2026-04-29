@@ -8,6 +8,7 @@ type Props = {
   onDeleteExercise: (dayId: string, exerciseId: string) => void;
   setSelectedDayId: (dayId: string) => void;
   setIsModalOpen: (open: boolean) => void;
+  onDeleteDay: (dayId: string) => void;
 };
 
 // Converts "bench_press" to "Bench Press" for display in the UI
@@ -18,7 +19,7 @@ const formatExerciseName = (value: string) => {
 };
 
 // Displays one program day with its exercises and actions (add/delete exercise)
-export default function ProgramDayCard({ day, onDeleteExercise, setSelectedDayId, setIsModalOpen}: Props) {
+export default function ProgramDayCard({ day, onDeleteExercise, setSelectedDayId, setIsModalOpen, onDeleteDay}: Props) {
   return (
     <article className="rounded-[32px] border border-zinc-800 bg-gradient-to-br from-gray-950 via-[#0b0f1a] to-black p-6">
       <div className="flex items-start justify-between gap-4">
@@ -38,9 +39,15 @@ export default function ProgramDayCard({ day, onDeleteExercise, setSelectedDayId
             {day.exercises?.length || 0} exercises
           </span>
 
-          <button className="rounded-full border border-red-900/60 p-2 text-red-300 transition hover:bg-red-950/40">
-            <Trash2 size={14} />
-          </button>
+    <button
+      onClick={() => {
+        if (!day._id) return;
+        onDeleteDay(day._id);
+      }}
+      className="rounded-full border border-red-900/60 p-2 text-red-300 transition hover:bg-red-950/40"
+    >
+      <Trash2 size={14} />
+    </button>
         </div>
       </div>
 

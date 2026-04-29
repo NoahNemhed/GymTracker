@@ -138,6 +138,63 @@ const handleAddExercise = async (
 }
 };
 
+
+// Add a new empty training day to the program
+const handleAddDay = async () => {
+  if (!program) return;
+
+  // limit to max 7 days
+  if (program.days.length >= 7) return;
+
+  const newDay = {
+    name: `Day ${program.days.length + 1}`,
+    focus: "Custom",
+    dayOrder: program.days.length + 1,
+    exercises: [],
+  };
+
+  const updatedDays = [...program.days, newDay];
+
+  try {
+    const updatedProgram = await updateProgram(program._id, {
+      days: updatedDays,
+      daysPerWeek: updatedDays.length,
+    });
+
+    setProgram(updatedProgram);
+  } catch (error) {
+    console.error(error);
+  }
+};
+
+// Remove the selected day from program
+const handleDeleteDay = async (dayId: string) => {
+  if (!program) return;
+
+  const confirmed = window.confirm("Delete this day?");
+  if (!confirmed) return;
+
+  // remove the selected day
+  const updatedDays = program.days
+    .filter((day) => day._id !== dayId)
+    // re-order days so they stay 1,2,3...
+    .map((day, index) => ({
+      ...day,
+      dayOrder: index + 1,
+    }));
+
+  try {
+    const updatedProgram = await updateProgram(program._id, {
+      days: updatedDays,
+      daysPerWeek: updatedDays.length,
+    });
+
+    setProgram(updatedProgram);
+  } catch (error) {
+    console.error(error);
+  }
+};
+
   return (
     <div className="min-h-screen bg-[#05070f] text-white">
       <Navbar />
@@ -158,8 +215,8 @@ const handleAddExercise = async (
         {!loading && !errorMessage && program && (
           <div className="space-y-6">
             <ProgramDetailHeader program={program} />
-            <ProgramSummaryCards program={program} />
-            <ProgramDaysSection program={program} onDeleteExercise={handleDeleteExercise} setSelectedDayId={setSelectedDayId} setIsModalOpen={setIsModalOpen} />
+            <ProgramSummaryCards program={program} onAddDay={handleAddDay} />
+            <ProgramDaysSection program={program} onDeleteExercise={handleDeleteExercise} setSelectedDayId={setSelectedDayId} setIsModalOpen={setIsModalOpen} onDeleteDay={handleDeleteDay}  />
           </div>
         )}
         {/* Modal receives the selected exercise and sends it back to handleAddExercise */}
