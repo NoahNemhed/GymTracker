@@ -1,8 +1,7 @@
 import mongoose from "mongoose";
 import Program from "../models/Program.js";
 
-// create one program
-
+// create a program
 export const createProgram = async (req, res) => {
   try {
     const { userId, name, description, goal, daysPerWeek, isActive, days } = req.body;
@@ -72,7 +71,7 @@ export const getPrograms = async (req, res) => {
   }
 };
 
-// get one program by id
+// get a program by id
 export const getProgramById = async (req, res) => {
   try {
     const program = await Program.findById(req.params.id);
@@ -113,6 +112,7 @@ export const updateProgram = async (req, res) => {
   }
 };
 
+// Delete a program
 export const deleteProgram = async (req, res) => {
   try {
     const program = await Program.findById(req.params.id);
@@ -126,5 +126,30 @@ export const deleteProgram = async (req, res) => {
     res.status(200).json({ message: "Program deleted successfully" });
   } catch (error) {
     res.status(500).json({ message: "Failed to delete program" });
+  }
+};
+
+
+// set an program as active program ( deactivates other active programs )
+export const setActiveProgram = async (req, res) => {
+  try {
+    const { id } = req.params;
+
+    // deactivate all other programs for user
+    await Program.updateMany(
+      { userId: req.user.userId },
+      { $set: { isActive: false } }
+    );
+
+    // activate selected program
+    const program = await Program.findByIdAndUpdate(
+      id,
+      { isActive: true },
+      { new: true }
+    );
+
+    res.status(200).json(program);
+  } catch (error) {
+    res.status(500).json({ message: "Failed to set active program" });
   }
 };

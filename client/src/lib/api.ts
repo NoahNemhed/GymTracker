@@ -95,18 +95,29 @@ export type CreateProgramPayload = {
   }[];
 };
 
+export type UpdateProgramPayload = Partial<{
+  name: string;
+  description: string;
+  goal: "hypertrophy" | "strength" | "endurance" | "general_fitness";
+  daysPerWeek: number;
+  isActive: boolean;
+  days: ProgramType["days"];
+}>;
 
+
+// get all programs
 export const getPrograms = async (): Promise<ProgramType[]> => {
   const response = await api.get("/programs");
   return response.data; 
 };
 
+// get program by id
 export const getProgramById = async (id: string): Promise<ProgramType> => {
   const response = await api.get(`/programs/${id}`);
   return response.data;
 };
 
-
+// create program
 export const createProgram = async (
   payload: CreateProgramPayload
 ): Promise<ProgramType> => {
@@ -114,7 +125,23 @@ export const createProgram = async (
   return response.data;
 };
 
+// delete program
 export const deleteProgram = async (id: string) => {
   const response = await api.delete(`/programs/${id}`);
+  return response.data;
+};
+
+// set an program as active
+export const setActiveProgram = async (id: string) => {
+  const response = await api.patch(`/programs/${id}/activate`);
+  return response.data;
+};
+
+// update an existing program
+export const updateProgram = async (
+  id: string,
+  payload: UpdateProgramPayload
+): Promise<ProgramType> => {
+  const response = await api.put(`/programs/${id}`, payload);
   return response.data;
 };

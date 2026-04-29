@@ -6,6 +6,7 @@ type ProgramDay = ProgramType["days"][number];
 type Props = {
   day: ProgramDay;
   programId: string;
+  onDeleteExercise: (dayId: string, exerciseId: string) => void;
 };
 
 const formatExerciseName = (value: string) => {
@@ -14,7 +15,7 @@ const formatExerciseName = (value: string) => {
     .replace(/\b\w/g, (char) => char.toUpperCase());
 };
 
-export default function ProgramDayCard({ day }: Props) {
+export default function ProgramDayCard({ day, onDeleteExercise}: Props) {
   return (
     <article className="rounded-[32px] border border-zinc-800 bg-gradient-to-br from-gray-950 via-[#0b0f1a] to-black p-6">
       <div className="flex items-start justify-between gap-4">
@@ -58,9 +59,15 @@ export default function ProgramDayCard({ day }: Props) {
                   {exercise.targetSets} × {exercise.repRange}
                 </span>
 
-                <button className="rounded-full border border-red-900/60 p-2 text-red-300 transition hover:bg-red-950/40">
-                  <Trash2 size={14} />
-                </button>
+                <button
+                onClick={() => {
+                  if (!day._id || !exercise._id) return;
+                  onDeleteExercise(day._id, exercise._id);
+                }}
+                className="rounded-full border border-red-900/60 p-2 text-red-300 transition hover:bg-red-950/40"
+              >
+                <Trash2 size={14} />
+              </button>
               </div>
             </div>
           ))

@@ -4,9 +4,10 @@ import ProgramDayCard from "./ProgramDayCard";
 
 type Props = {
   program: ProgramType;
+  onDeleteExercise: (dayId: string, exerciseId: string) => void;
 };
 
-export default function ProgramDaysSection({ program }: Props) {
+export default function ProgramDaysSection({ program, onDeleteExercise }: Props) {
   if (program.days.length === 0) {
     return (
       <div className="rounded-[32px] border border-zinc-800 bg-[#0b0f1a] p-6">
@@ -30,6 +31,7 @@ export default function ProgramDaysSection({ program }: Props) {
           key={day._id || `${program._id}-${day.dayOrder}`}
           day={day}
           programId={program._id}
+          onDeleteExercise={onDeleteExercise}
         />
       ))}
     </section>

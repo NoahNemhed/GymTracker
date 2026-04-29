@@ -3,8 +3,9 @@ import axios from "axios";
 import Navbar from "../components/Navbar";
 import ProgramList from "../components/Programs/ProgramList";
 import CreateProgramModal from "../components/Programs/CreateProgramModal"
-import { getPrograms, deleteProgram } from "../lib/api";
+import { getPrograms, deleteProgram, setActiveProgram } from "../lib/api";
 import type { ProgramType } from "../lib/api";
+
 
 export default function ProgramsPage() {
   const [programs, setPrograms] = useState<ProgramType[]>([]);
@@ -86,6 +87,26 @@ export default function ProgramsPage() {
     }
   };
 
+  // handle set active program
+  const handleSetActive = async (id: string) => {
+  try {
+    await setActiveProgram(id);
+
+    // simplest + safest
+    const updated = await getPrograms();
+    setPrograms(updated);
+
+  } catch (error) {
+    if (axios.isAxiosError(error)) {
+      setErrorMessage(
+        error.response?.data?.message || "Failed to set active program"
+      );
+    } else {
+      setErrorMessage("Something went wrong");
+    }
+  }
+};
+
   return (
     <div className="min-h-screen bg-[#05070f] text-white">
       <Navbar />
@@ -119,7 +140,7 @@ export default function ProgramsPage() {
           </div>
         )}
 
-        {!loading && !errorMessage && <ProgramList programs={programs} onDelete={handleDelete} />}
+        {!loading && !errorMessage && <ProgramList programs={programs} onDelete={handleDelete} onSetActive={handleSetActive} />}
 
         <CreateProgramModal
           open={isCreateOpen}

@@ -4,9 +4,10 @@ import type { ProgramType } from "../../lib/api";
 type Props = {
   program: ProgramType;
   onDelete: (id: string) => void;
+  onSetActive: (id: string) => void;
 };
 
-export default function ProgramOverviewCard({ program, onDelete  }: Props) {
+export default function ProgramOverviewCard({ program, onDelete, onSetActive  }: Props) {
   const totalExercises =
     program.days?.reduce((sum, day) => sum + (day.exercises?.length || 0), 0) || 0;
 
@@ -72,15 +73,30 @@ export default function ProgramOverviewCard({ program, onDelete  }: Props) {
         </div>
       </div>
 
-      <div className="mt-6 flex gap-3">
-        <button className="rounded-full bg-[#85ADFF] px-4 py-2.5 text-sm font-semibold text-black transition hover:opacity-90">
-          <NavLink to={`/programs/${program._id}`}>View</NavLink>
-        </button>
+    <div className="mt-6 flex gap-3">
+      <NavLink
+        to={`/programs/${program._id}`}
+        className="rounded-full bg-[#85ADFF] px-4 py-2.5 text-sm font-semibold text-black transition hover:opacity-90"
+      >
+        View
+      </NavLink>
 
-        <button  onClick={handleDelete} className="rounded-full border border-zinc-700 px-4 py-2.5 text-sm font-medium text-zinc-300 transition hover:bg-zinc-800">
-          Delete
+      <button
+        onClick={handleDelete}
+        className="rounded-full border border-zinc-700 px-4 py-2.5 text-sm font-medium text-zinc-300 transition hover:bg-zinc-800"
+      >
+        Delete
+      </button>
+
+      {!program.isActive && (
+        <button
+          onClick={() => onSetActive(program._id)}
+          className="rounded-full border border-[#85ADFF] px-4 py-2.5 text-sm font-medium text-[#85ADFF] transition hover:bg-[#85ADFF]/10"
+        >
+          Set Active
         </button>
-      </div>
+      )}
+    </div>
     </article>
   );
 }

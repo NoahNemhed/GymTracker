@@ -5,6 +5,7 @@ import {
   getProgramById,
   updateProgram,
   deleteProgram,
+  setActiveProgram
 } from "../controllers/programController.js";
 import protectRoutes from "../middleware/authMiddleware.js";
 
@@ -18,5 +19,6 @@ router.get("/", getPrograms);
 router.get("/:id", getProgramById);
 router.put("/:id", updateProgram);
 router.delete("/:id", deleteProgram);
+router.patch("/:id/activate", setActiveProgram);
 
 export default router;

@@ -4,9 +4,10 @@ import type { ProgramType } from "../../lib/api";
 type Props = {
   programs: ProgramType[];
   onDelete: (id: string) => void;
+  onSetActive: (id: string) => void;
 };
 
-export default function ProgramList({ programs, onDelete }: Props) {
+export default function ProgramList({ programs, onDelete, onSetActive }: Props) {
   if (programs.length === 0) {
     return (
       <div className="rounded-[32px] border border-zinc-800 bg-[#0b0f1a] p-6">
@@ -24,8 +25,8 @@ export default function ProgramList({ programs, onDelete }: Props) {
         <ProgramOverviewCard 
         key={program._id}
         program={program} 
-        onDelete={onDelete}/>
-
+        onDelete={onDelete}
+        onSetActive={onSetActive}/>
       ))}
     </div>
   );

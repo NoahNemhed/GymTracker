@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar";
 import ProgramDetailHeader from "../components/Program/ProgramDetailHeader";
 import ProgramSummaryCards from "../components/Program/ProgramSummaryCard";
 import ProgramDaysSection from "../components/Program/ProgramDaySection";
-import { getProgramById } from "../lib/api";
+import { getProgramById, updateProgram } from "../lib/api";
 import type { ProgramType } from "../lib/api";
 
 export default function ProgramDetailPage() {
@@ -15,6 +15,8 @@ export default function ProgramDetailPage() {
   const [loading, setLoading] = useState(true);
   const [errorMessage, setErrorMessage] = useState("");
 
+
+  // fetch program
   useEffect(() => {
     const fetchProgram = async () => {
       if (!id) {
@@ -44,6 +46,42 @@ export default function ProgramDetailPage() {
     fetchProgram();
   }, [id]);
 
+
+
+  // handle delete exercise from program
+  const handleDeleteExercise = async (dayId: string, exerciseId: string) => {
+  if (!program) return;
+
+  const confirmed = window.confirm("Delete this exercise from the program?");
+  if (!confirmed) return;
+
+  const updatedDays = program.days.map((day) => {
+    if (day._id !== dayId) return day;
+
+    return {
+      ...day,
+      exercises: day.exercises.filter((exercise) => exercise._id !== exerciseId),
+    };
+  });
+
+  try {
+    const updatedProgram = await updateProgram(program._id, {
+      days: updatedDays,
+      daysPerWeek: updatedDays.length,
+    });
+
+    setProgram(updatedProgram);
+  } catch (error) {
+    if (axios.isAxiosError(error)) {
+      setErrorMessage(
+        error.response?.data?.message || "Failed to delete exercise"
+      );
+    } else {
+      setErrorMessage("Something went wrong");
+    }
+  }
+};
+
   return (
     <div className="min-h-screen bg-[#05070f] text-white">
       <Navbar />
@@ -65,7 +103,7 @@ export default function ProgramDetailPage() {
           <div className="space-y-6">
             <ProgramDetailHeader program={program} />
             <ProgramSummaryCards program={program} />
-            <ProgramDaysSection program={program} />
+            <ProgramDaysSection program={program} onDeleteExercise={handleDeleteExercise} />
           </div>
         )}
       </main>
