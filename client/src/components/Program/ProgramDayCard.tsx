@@ -5,17 +5,20 @@ type ProgramDay = ProgramType["days"][number];
 
 type Props = {
   day: ProgramDay;
-  programId: string;
   onDeleteExercise: (dayId: string, exerciseId: string) => void;
+  setSelectedDayId: (dayId: string) => void;
+  setIsModalOpen: (open: boolean) => void;
 };
 
+// Converts "bench_press" to "Bench Press" for display in the UI
 const formatExerciseName = (value: string) => {
   return value
     .replaceAll("_", " ")
     .replace(/\b\w/g, (char) => char.toUpperCase());
 };
 
-export default function ProgramDayCard({ day, onDeleteExercise}: Props) {
+// Displays one program day with its exercises and actions (add/delete exercise)
+export default function ProgramDayCard({ day, onDeleteExercise, setSelectedDayId, setIsModalOpen}: Props) {
   return (
     <article className="rounded-[32px] border border-zinc-800 bg-gradient-to-br from-gray-950 via-[#0b0f1a] to-black p-6">
       <div className="flex items-start justify-between gap-4">
@@ -43,6 +46,7 @@ export default function ProgramDayCard({ day, onDeleteExercise}: Props) {
 
       <div className="mt-6 space-y-3">
         {day.exercises?.length ? (
+          // Render all exercises for this day
           day.exercises.map((exercise) => (
             <div
               key={exercise._id || `${day.dayOrder}-${exercise.order}`}
@@ -58,7 +62,8 @@ export default function ProgramDayCard({ day, onDeleteExercise}: Props) {
                 <span className="text-sm font-semibold text-[#85ADFF]">
                   {exercise.targetSets} × {exercise.repRange}
                 </span>
-
+                
+                {/* Delete a single exercise from this day */}
                 <button
                 onClick={() => {
                   if (!day._id || !exercise._id) return;
@@ -77,7 +82,15 @@ export default function ProgramDayCard({ day, onDeleteExercise}: Props) {
       </div>
 
       <div className="mt-5">
-        <button className="inline-flex items-center gap-2 rounded-full border border-zinc-700 px-4 py-2.5 text-sm font-medium text-zinc-300 transition hover:bg-zinc-800 hover:text-white">
+        {/* Opens modal and stores which day we are adding an exercise to */}
+        <button className="inline-flex items-center gap-2 rounded-full border border-zinc-700 px-4 py-2.5 text-sm font-medium text-zinc-300 transition hover:bg-zinc-800 hover:text-white"
+          onClick={() => {
+          if (!day._id) return;
+          
+          setSelectedDayId(day._id);
+          setIsModalOpen(true);
+        }}
+        >
           <Plus size={16} />
           Add Exercise
         </button>

@@ -5,9 +5,15 @@ import ProgramDayCard from "./ProgramDayCard";
 type Props = {
   program: ProgramType;
   onDeleteExercise: (dayId: string, exerciseId: string) => void;
+  setSelectedDayId: (dayId: string) => void;
+  setIsModalOpen: (open: boolean) => void;
 };
 
-export default function ProgramDaysSection({ program, onDeleteExercise }: Props) {
+
+// Renders all program days or a fallback if no days exist
+export default function ProgramDaysSection({ program, onDeleteExercise, setSelectedDayId, setIsModalOpen }: Props) {
+
+  // Show message when program has no training days yet
   if (program.days.length === 0) {
     return (
       <div className="rounded-[32px] border border-zinc-800 bg-[#0b0f1a] p-6">
@@ -26,12 +32,16 @@ export default function ProgramDaysSection({ program, onDeleteExercise }: Props)
 
   return (
     <section className="space-y-4">
+      {/* Loop through each day and render a ProgramDayCard */}
+      {/* Pass down handlers so child components can trigger actions in parent */}
       {program.days.map((day) => (
+        
         <ProgramDayCard
           key={day._id || `${program._id}-${day.dayOrder}`}
           day={day}
-          programId={program._id}
           onDeleteExercise={onDeleteExercise}
+          setSelectedDayId={setSelectedDayId}
+          setIsModalOpen={setIsModalOpen}
         />
       ))}
     </section>

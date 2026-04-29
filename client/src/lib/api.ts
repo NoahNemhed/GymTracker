@@ -1,7 +1,10 @@
 import axios from "axios";
 
+// Base API url used for all requests
 const API_BASE_URL = "http://localhost:5000/api";
 
+
+// Create axios instance with default config
 export const api = axios.create({
   baseURL: API_BASE_URL,
   headers: {
@@ -9,7 +12,8 @@ export const api = axios.create({
   },
 });
 
-{/* HANDLE JWT TOKEN */}
+// HANDLE JWT TOKEN
+// Automatically attach JWT token to every request if it exists
 api.interceptors.request.use((config) => {
   const token = localStorage.getItem("token");
 
@@ -20,8 +24,8 @@ api.interceptors.request.use((config) => {
   return config;
 });
 
-{/* LOGIN & REGISER */}
 
+// AUTH: Login & Register payload types
 export type RegisterPayload = {
   username: string;
   email: string;
@@ -45,7 +49,7 @@ export const loginUser = async (payload: LoginPayload) => {
 
 
 
-{/* PROGRAMS */}
+// PROGRAM TYPES: Structure of programs, days, and exercises
 export type ProgramExercise = {
   exerciseId: string;
   targetSets: number;
@@ -73,7 +77,7 @@ export type ProgramType = {
   days: ProgramDay[];
 };
 
-
+// Payload used when creating a new program
 export type CreateProgramPayload = {
   userId: number;
   name: string;
@@ -95,6 +99,7 @@ export type CreateProgramPayload = {
   }[];
 };
 
+// Payload used when updating a program (all fields optional)
 export type UpdateProgramPayload = Partial<{
   name: string;
   description: string;
@@ -105,19 +110,19 @@ export type UpdateProgramPayload = Partial<{
 }>;
 
 
-// get all programs
+// Fetch all programs for the current user
 export const getPrograms = async (): Promise<ProgramType[]> => {
   const response = await api.get("/programs");
   return response.data; 
 };
 
-// get program by id
+// Fetch a single program by id
 export const getProgramById = async (id: string): Promise<ProgramType> => {
   const response = await api.get(`/programs/${id}`);
   return response.data;
 };
 
-// create program
+// Create a new program
 export const createProgram = async (
   payload: CreateProgramPayload
 ): Promise<ProgramType> => {
@@ -125,23 +130,41 @@ export const createProgram = async (
   return response.data;
 };
 
-// delete program
+// Delete a program
 export const deleteProgram = async (id: string) => {
   const response = await api.delete(`/programs/${id}`);
   return response.data;
 };
 
-// set an program as active
+// Set one program as active
 export const setActiveProgram = async (id: string) => {
   const response = await api.patch(`/programs/${id}/activate`);
   return response.data;
 };
 
-// update an existing program
+
+// Update an existing program (used for adding/removing exercises etc.)
 export const updateProgram = async (
   id: string,
   payload: UpdateProgramPayload
 ): Promise<ProgramType> => {
   const response = await api.put(`/programs/${id}`, payload);
+  return response.data;
+};
+
+
+
+// EXERCISE TYPES: Used in exercise search and selection
+export type ExerciseType = {
+  _id: string;
+  exerciseId: string;
+  name: string;
+  aliases: string[];
+  primaryMuscles: string[];
+};
+
+// Fetch all exercises for search modal
+export const getExercises = async (): Promise<ExerciseType[]> => {
+  const response = await api.get("/exercises");
   return response.data;
 };
