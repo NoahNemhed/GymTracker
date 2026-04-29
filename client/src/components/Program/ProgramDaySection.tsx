@@ -7,12 +7,12 @@ type Props = {
   setSelectedDayId: (dayId: string) => void;
   setIsModalOpen: (open: boolean) => void;
   onDeleteDay: (dayId: string) => void;
-
+  onUpdateDayName: (dayId: string, newName: string) => void;
 };
 
 
 // Renders all program days or a fallback if no days exist
-export default function ProgramDaysSection({ program, onDeleteExercise, setSelectedDayId, setIsModalOpen, onDeleteDay }: Props) {
+export default function ProgramDaysSection({ program, onDeleteExercise, setSelectedDayId, setIsModalOpen, onDeleteDay, onUpdateDayName }: Props) {
 
   // Show message when program has no training days yet
   if (program.days.length === 0) {
@@ -39,6 +39,7 @@ export default function ProgramDaysSection({ program, onDeleteExercise, setSelec
           setSelectedDayId={setSelectedDayId}
           setIsModalOpen={setIsModalOpen}
           onDeleteDay={onDeleteDay}
+          onUpdateDayName={onUpdateDayName}
         />
       ))}
 

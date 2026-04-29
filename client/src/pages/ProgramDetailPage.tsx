@@ -195,6 +195,49 @@ const handleDeleteDay = async (dayId: string) => {
   }
 };
 
+
+// Update program name
+const handleUpdateProgramName = async (newName: string) => {
+  if (!program) return;
+
+  const updatedProgram = await updateProgram(program._id, {
+    name: newName,
+  });
+
+  setProgram(updatedProgram);
+};
+
+// Update the name of one training day
+const handleUpdateDayName = async (dayId: string, newName: string) => {
+  if (!program) return;
+
+  const updatedDays = program.days.map((day) => {
+    if (day._id !== dayId) return day;
+
+    return {
+      ...day,
+      name: newName,
+    };
+  });
+
+  const updatedProgram = await updateProgram(program._id, {
+    days: updatedDays,
+    daysPerWeek: updatedDays.length,
+  });
+
+  setProgram(updatedProgram);
+};
+
+// Update the description of a program
+const handleUpdateProgramDescription = async (newDescription: string) => {
+  if (!program) return;
+
+  const updatedProgram = await updateProgram(program._id, {
+    description: newDescription,
+  });
+
+  setProgram(updatedProgram);
+};
   return (
     <div className="min-h-screen bg-[#05070f] text-white">
       <Navbar />
@@ -214,9 +257,9 @@ const handleDeleteDay = async (dayId: string) => {
 
         {!loading && !errorMessage && program && (
           <div className="space-y-6">
-            <ProgramDetailHeader program={program} />
+            <ProgramDetailHeader program={program} onUpdateProgramName={handleUpdateProgramName} onUpdateProgramDescription={handleUpdateProgramDescription} />
             <ProgramSummaryCards program={program} onAddDay={handleAddDay} />
-            <ProgramDaysSection program={program} onDeleteExercise={handleDeleteExercise} setSelectedDayId={setSelectedDayId} setIsModalOpen={setIsModalOpen} onDeleteDay={handleDeleteDay}  />
+            <ProgramDaysSection program={program} onDeleteExercise={handleDeleteExercise} setSelectedDayId={setSelectedDayId} setIsModalOpen={setIsModalOpen} onDeleteDay={handleDeleteDay} onUpdateDayName={handleUpdateDayName}  />
           </div>
         )}
         {/* Modal receives the selected exercise and sends it back to handleAddExercise */}

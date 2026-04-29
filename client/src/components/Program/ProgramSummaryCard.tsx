@@ -14,9 +14,7 @@ export default function ProgramSummaryCards({ program, onAddDay  }: Props) {
           <p className="text-xs uppercase tracking-[0.14em] text-zinc-500">
             Goal
           </p>
-          <button className="rounded-full border border-zinc-700 p-1.5 text-zinc-300 transition hover:bg-zinc-800 hover:text-white">
-            <Pencil size={14} />
-          </button>
+
         </div>
         <p className="mt-2 text-lg font-semibold capitalize text-white">
           {program.goal.replace("_", " ")}
