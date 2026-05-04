@@ -168,3 +168,27 @@ export const getExercises = async (): Promise<ExerciseType[]> => {
   const response = await api.get("/exercises");
   return response.data;
 };
+
+
+
+// WORKOUT SESSION
+// Payload used when completing a workout session
+export type CreateWorkoutSessionPayload = {
+  programId: string;
+  dayId: string;
+  dayName: string;
+  exercises: {
+    exerciseId: string;
+    targetSets: number;
+    completedSets: number;
+    repRange: string;
+    restSeconds: number;
+  }[];
+};
+
+export const createWorkoutSession = async (
+  payload: CreateWorkoutSessionPayload
+) => {
+  const response = await api.post("/workouts", payload);
+  return response.data;
+};

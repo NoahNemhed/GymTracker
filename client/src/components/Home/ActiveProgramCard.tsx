@@ -102,11 +102,13 @@ export default function ActiveProgramCard({ program }: Props) {
                     </div>
                   ))}
                 </div>
-
-                {/* CTA */}
+              
+              {/* Start workout button */}
+              <NavLink to={`/workout/active/${program._id}/${day._id}`}>
                 <button className="mt-8 h-[64px] w-full rounded-full bg-[#85ADFF] px-6 text-lg font-semibold text-[#0b0f1a] shadow-[0_10px_30px_rgba(133,173,255,0.18)] transition hover:opacity-90">
                   Start Workout
                 </button>
+              </NavLink>
               </div>
             </article>
           ))}

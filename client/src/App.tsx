@@ -6,6 +6,7 @@ import './App.css'
 import ProtectedRoute from "./components/ProtectedRoute";
 import ProgramsPage from "./pages/ProgramsPage";
 import ProgramDetailPage from './pages/ProgramDetailPage'
+import ActiveWorkoutPage from "./components/Workout/ActiveWorkoutPage";
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path="/home" element={<HomePage />} />
           <Route path="/programs" element={<ProgramsPage />} />
           <Route path="/programs/:id" element={<ProgramDetailPage />} />
+          <Route path="/workout/active/:programId/:dayId" element={<ActiveWorkoutPage />} />
         </Route>
       </Routes>
     </BrowserRouter>

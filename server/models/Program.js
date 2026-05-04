@@ -86,7 +86,7 @@ const programSchema = new mongoose.Schema(
     daysPerWeek: {
       type: Number,
       required: true,
-      min: 1,
+      min: 0,
       max: 7,
     },
     isActive: {
