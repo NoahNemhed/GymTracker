@@ -1,17 +1,9 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
 import axios from "axios";
 import { getPrograms } from "../lib/api";
 import type { ProgramType } from "../lib/api";
-import { NavLink } from "react-router";
 import ActiveProgramCard from "../components/Home/ActiveProgramCard";
-
-type userType = {
-  _id: string;
-  username: string;
-  email: string;
-  token: string;
-};
 
 export default function HomePage() {
   const [programs, setPrograms] = useState<ProgramType[]>([]);
@@ -19,16 +11,12 @@ export default function HomePage() {
   const [errorMessage, setErrorMessage] = useState("");
   
 
-  const user: userType | null = JSON.parse(localStorage.getItem("user") || "null");
-
   useEffect(() => {
     const fetchPrograms = async () => {
       try {
         setLoading(true);
         setErrorMessage("");
         
-        const token = user?.token
-
         const data = await getPrograms();
         setPrograms(data);
       }
@@ -54,14 +42,6 @@ export default function HomePage() {
  
   // Gets active program
   const activeProgram = programs.find((program) => program.isActive)
-  console.log(activeProgram)
-
-
-  const formatExerciseName = (value: string) => {
-  return value
-    .replaceAll("_", " ")
-    .replace(/\b\w/g, (char) => char.toUpperCase());
-};
   return (
     
     <div className="min-h-screen bg-[#05070f] text-white">
@@ -69,7 +49,19 @@ export default function HomePage() {
 
       <main className="mx-auto max-w-7xl px-4 py-8 md:px-6 ">
 
-      <ActiveProgramCard program={activeProgram} />
+      {loading && (
+        <div className="mt-8 rounded-[32px] border border-zinc-800 bg-[#0b0f1a] p-6">
+          <p className="text-zinc-300">Loading your dashboard...</p>
+        </div>
+      )}
+
+      {errorMessage && !loading && (
+        <div className="mt-8 rounded-[32px] border border-red-900 bg-red-950/40 p-6">
+          <p className="text-red-300">{errorMessage}</p>
+        </div>
+      )}
+
+      {!loading && !errorMessage && <ActiveProgramCard program={activeProgram} />}
 
        
       </main>

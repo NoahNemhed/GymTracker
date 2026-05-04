@@ -13,16 +13,25 @@ export default function ProgramsPage() {
   const [errorMessage, setErrorMessage] = useState("");
   const [isCreateOpen, setIsCreateOpen] = useState(false);
 
-  // fetch all program
+  // fetch all programs and refresh while this page is open
   useEffect(() => {
-    const fetchPrograms = async () => {
+    let isMounted = true;
+
+    const fetchPrograms = async (showLoading = false) => {
       try {
-        setLoading(true);
-        setErrorMessage("");
+        if (showLoading) {
+          setLoading(true);
+        }
 
         const data = await getPrograms();
-        setPrograms(data);
+
+        if (isMounted) {
+          setPrograms(data);
+          setErrorMessage("");
+        }
       } catch (error) {
+        if (!isMounted) return;
+
         if (axios.isAxiosError(error)) {
           setErrorMessage(
             error.response?.data?.message || "Failed to fetch programs"
@@ -31,11 +40,20 @@ export default function ProgramsPage() {
           setErrorMessage("Something went wrong");
         }
       } finally {
-        setLoading(false);
+        if (isMounted) {
+          setLoading(false);
+        }
       }
     };
 
-    fetchPrograms();
+    fetchPrograms(true);
+    // refresh every 5 sek for changes in program
+    const intervalId = window.setInterval(() => fetchPrograms(), 5000);
+
+    return () => {
+      isMounted = false;
+      window.clearInterval(intervalId);
+    };
   }, []);
 
   // handle create new program
@@ -44,7 +62,7 @@ export default function ProgramsPage() {
       // copy existing programs
       let updatedPrograms = [...prevPrograms];
 
-      // if new program is active → turn all others off
+      // if new program is active -> turn all others off
       if (newProgram.isActive) {
         updatedPrograms = updatedPrograms.map((program) => {
           return {
@@ -92,7 +110,7 @@ export default function ProgramsPage() {
   try {
     await setActiveProgram(id);
 
-    // simplest + safest
+    
     const updated = await getPrograms();
     setPrograms(updated);
 

@@ -12,7 +12,6 @@ export default function AuthCard({
   title,
   subtitle,
   children,
-  variant = "login",
 }: AuthCardProps) {
   return (
     <div className="relative min-h-screen overflow-hidden bg-black text-white">

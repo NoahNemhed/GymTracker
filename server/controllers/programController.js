@@ -4,7 +4,8 @@ import Program from "../models/Program.js";
 // create a program
 export const createProgram = async (req, res) => {
   try {
-    const { userId, name, description, goal, daysPerWeek, isActive, days } = req.body;
+    const { name, description, goal, daysPerWeek, isActive, days } = req.body;
+    const userId = req.user.userId;
 
     if (!userId || !name || !goal || !daysPerWeek) {
       return res
@@ -56,10 +57,11 @@ export const createProgram = async (req, res) => {
 // returns all programs
 export const getPrograms = async (req, res) => {
   try {
-    const { userId, isActive, goal } = req.query;
-    const filter = {};
+    const { isActive, goal } = req.query;
+    const filter = {
+      userId: req.user.userId,
+    };
 
-    if (userId) filter.userId = userId;
     if (isActive !== undefined) filter.isActive = isActive === "true";
     if (goal) filter.goal = goal;
 
@@ -74,7 +76,10 @@ export const getPrograms = async (req, res) => {
 // get a program by id
 export const getProgramById = async (req, res) => {
   try {
-    const program = await Program.findById(req.params.id);
+    const program = await Program.findOne({
+      _id: req.params.id,
+      userId: req.user.userId,
+    });
 
     if (!program) {
       return res.status(404).json({ message: "Program not found" });
@@ -91,7 +96,32 @@ export const updateProgram = async (req, res) => {
   try {
     const { name, description, goal, daysPerWeek, isActive, days } = req.body;
 
-    const program = await Program.findById(req.params.id);
+    if (name !== undefined && name.trim().length < 3) {
+      return res.status(400).json({ message: "Program name must be at least 3 characters" });
+    }
+
+    if (
+      goal !== undefined &&
+      !["hypertrophy", "strength", "endurance", "general_fitness"].includes(goal)
+    ) {
+      return res.status(400).json({ message: "Invalid program goal" });
+    }
+
+    if (
+      daysPerWeek !== undefined &&
+      (!Number.isInteger(daysPerWeek) || daysPerWeek < 0 || daysPerWeek > 7)
+    ) {
+      return res.status(400).json({ message: "daysPerWeek must be between 0 and 7" });
+    }
+
+    if (days !== undefined && !Array.isArray(days)) {
+      return res.status(400).json({ message: "days must be an array" });
+    }
+
+    const program = await Program.findOne({
+      _id: req.params.id,
+      userId: req.user.userId,
+    });
 
     if (!program) {
       return res.status(404).json({ message: "Program not found" });
@@ -115,7 +145,10 @@ export const updateProgram = async (req, res) => {
 // Delete a program
 export const deleteProgram = async (req, res) => {
   try {
-    const program = await Program.findById(req.params.id);
+    const program = await Program.findOne({
+      _id: req.params.id,
+      userId: req.user.userId,
+    });
 
     if (!program) {
       return res.status(404).json({ message: "Program not found" });
@@ -142,11 +175,15 @@ export const setActiveProgram = async (req, res) => {
     );
 
     // activate selected program
-    const program = await Program.findByIdAndUpdate(
-      id,
+    const program = await Program.findOneAndUpdate(
+      { _id: id, userId: req.user.userId },
       { isActive: true },
       { new: true }
     );
+
+    if (!program) {
+      return res.status(404).json({ message: "Program not found" });
+    }
 
     res.status(200).json(program);
   } catch (error) {

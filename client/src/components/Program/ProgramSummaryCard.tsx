@@ -1,4 +1,4 @@
-import { Pencil, Plus } from "lucide-react";
+import { Plus } from "lucide-react";
 import type { ProgramType } from "../../lib/api";
 
 type Props = {
