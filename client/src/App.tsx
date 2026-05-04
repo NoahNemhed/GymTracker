@@ -7,6 +7,7 @@ import ProtectedRoute from "./components/ProtectedRoute";
 import ProgramsPage from "./pages/ProgramsPage";
 import ProgramDetailPage from './pages/ProgramDetailPage'
 import ActiveWorkoutPage from "./components/Workout/ActiveWorkoutPage";
+import ProfilePage from "./pages/ProfilePage";
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path="/programs" element={<ProgramsPage />} />
           <Route path="/programs/:id" element={<ProgramDetailPage />} />
           <Route path="/workout/active/:programId/:dayId" element={<ActiveWorkoutPage />} />
+          <Route path="/profile" element={<ProfilePage />} />
         </Route>
       </Routes>
     </BrowserRouter>

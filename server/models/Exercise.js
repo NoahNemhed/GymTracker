@@ -38,18 +38,6 @@ const exerciseSchema = new mongoose.Schema(
       type: String,
       enum: ["beginner", "intermediate", "advanced"],
     },
-    imageUrl: {
-      type: String,
-      default: "",
-    },
-    gifUrl: {
-      type: String,
-      default: "",
-    },
-    videoUrl: {
-      type: String,
-      default: "",
-    },
   },
   { timestamps: true }
 );

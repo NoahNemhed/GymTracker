@@ -20,9 +20,7 @@
       "triceps",
       "shoulders"
     ],
-    "difficulty": "intermediate",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "intermediate"
   },
   {
     "exerciseId": "barbell_incline_bench_press",
@@ -43,9 +41,7 @@
       "triceps",
       "shoulders"
     ],
-    "difficulty": "intermediate",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "intermediate"
   },
   {
     "exerciseId": "barbell_decline_bench_press",
@@ -66,9 +62,7 @@
       "triceps",
       "shoulders"
     ],
-    "difficulty": "intermediate",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "intermediate"
   },
   {
     "exerciseId": "dumbbell_bench_press",
@@ -89,9 +83,7 @@
       "triceps",
       "shoulders"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "dumbbell_incline_bench_press",
@@ -111,9 +103,7 @@
       "triceps",
       "shoulders"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "dumbbell_decline_bench_press",
@@ -133,9 +123,7 @@
       "triceps",
       "shoulders"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "machine_chest_press",
@@ -154,9 +142,7 @@
       "triceps",
       "shoulders"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "machine_incline_chest_press",
@@ -175,9 +161,7 @@
       "triceps",
       "shoulders"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "machine_decline_chest_press",
@@ -196,9 +180,7 @@
       "triceps",
       "shoulders"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "smith_machine_chest_press",
@@ -218,9 +200,7 @@
       "triceps",
       "shoulders"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "landmine_chest_press",
@@ -238,9 +218,7 @@
       "triceps",
       "shoulders"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "dip",
@@ -257,9 +235,7 @@
       "triceps",
       "shoulders"
     ],
-    "difficulty": "intermediate",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "intermediate"
   },
   {
     "exerciseId": "pec_deck_fly",
@@ -278,9 +254,7 @@
     "secondaryMuscles": [
       "shoulders"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "dumbbell_fly",
@@ -299,9 +273,7 @@
     "secondaryMuscles": [
       "shoulders"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "incline_cable_fly",
@@ -318,9 +290,7 @@
     "secondaryMuscles": [
       "shoulders"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "mid_cable_fly",
@@ -337,9 +307,7 @@
     "secondaryMuscles": [
       "shoulders"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "low_cable_fly",
@@ -356,9 +324,7 @@
     "secondaryMuscles": [
       "shoulders"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "barbell_row",
@@ -376,9 +342,7 @@
     "secondaryMuscles": [
       "biceps"
     ],
-    "difficulty": "intermediate",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "intermediate"
   },
   {
     "exerciseId": "barbell_pendlay_row",
@@ -396,9 +360,7 @@
     "secondaryMuscles": [
       "biceps"
     ],
-    "difficulty": "intermediate",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "intermediate"
   },
   {
     "exerciseId": "barbell_meadows_row",
@@ -416,9 +378,7 @@
     "secondaryMuscles": [
       "biceps"
     ],
-    "difficulty": "intermediate",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "intermediate"
   },
   {
     "exerciseId": "chest_supported_barbell_row",
@@ -437,9 +397,7 @@
     "secondaryMuscles": [
       "biceps"
     ],
-    "difficulty": "intermediate",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "intermediate"
   },
   {
     "exerciseId": "dumbbell_row",
@@ -458,9 +416,7 @@
     "secondaryMuscles": [
       "biceps"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "chest_supported_dumbbell_row",
@@ -479,9 +435,7 @@
     "secondaryMuscles": [
       "biceps"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "dumbbell_incline_row",
@@ -500,9 +454,7 @@
     "secondaryMuscles": [
       "biceps"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "dumbbell_pendlay_row",
@@ -520,9 +472,7 @@
     "secondaryMuscles": [
       "biceps"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "dumbbell_renegade_row",
@@ -540,9 +490,7 @@
     "secondaryMuscles": [
       "biceps"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "seated_cable_row",
@@ -558,9 +506,7 @@
     "secondaryMuscles": [
       "biceps"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "underhand_cable_row",
@@ -576,9 +522,7 @@
     "secondaryMuscles": [
       "biceps"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "seated_row_machine",
@@ -594,9 +538,7 @@
     "secondaryMuscles": [
       "biceps"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "landmine_row",
@@ -613,9 +555,7 @@
     "secondaryMuscles": [
       "biceps"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "kettlebell_row",
@@ -632,9 +572,7 @@
     "secondaryMuscles": [
       "biceps"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "kettlebell_gorilla_row",
@@ -650,9 +588,7 @@
     "secondaryMuscles": [
       "biceps"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "pull_up",
@@ -671,9 +607,7 @@
     "secondaryMuscles": [
       "biceps"
     ],
-    "difficulty": "intermediate",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "intermediate"
   },
   {
     "exerciseId": "chin_up",
@@ -692,9 +626,7 @@
     "secondaryMuscles": [
       "biceps"
     ],
-    "difficulty": "intermediate",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "intermediate"
   },
   {
     "exerciseId": "lat_pulldown",
@@ -710,9 +642,7 @@
     "secondaryMuscles": [
       "biceps"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "neutral_grip_lat_pulldown",
@@ -728,9 +658,7 @@
     "secondaryMuscles": [
       "biceps"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "wide_grip_lat_pulldown",
@@ -746,9 +674,7 @@
     "secondaryMuscles": [
       "biceps"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "straight_arm_pulldown",
@@ -762,9 +688,7 @@
       "back"
     ],
     "secondaryMuscles": [],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "barbell_overhead_press",
@@ -782,9 +706,7 @@
     "secondaryMuscles": [
       "triceps"
     ],
-    "difficulty": "intermediate",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "intermediate"
   },
   {
     "exerciseId": "dumbbell_shoulder_press",
@@ -803,9 +725,7 @@
     "secondaryMuscles": [
       "triceps"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "incline_dumbbell_shoulder_press",
@@ -824,9 +744,7 @@
     "secondaryMuscles": [
       "triceps"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "smith_machine_shoulder_press",
@@ -845,9 +763,7 @@
     "secondaryMuscles": [
       "triceps"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "landmine_press",
@@ -864,9 +780,7 @@
     "secondaryMuscles": [
       "triceps"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "barbell_push_press",
@@ -884,9 +798,7 @@
     "secondaryMuscles": [
       "triceps"
     ],
-    "difficulty": "intermediate",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "intermediate"
   },
   {
     "exerciseId": "dumbbell_push_press",
@@ -904,9 +816,7 @@
     "secondaryMuscles": [
       "triceps"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "barbell_thruster",
@@ -926,9 +836,7 @@
       "quadriceps",
       "glutes"
     ],
-    "difficulty": "intermediate",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "intermediate"
   },
   {
     "exerciseId": "kettlebell_shoulder_press",
@@ -944,9 +852,7 @@
     "secondaryMuscles": [
       "triceps"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "barbell_front_raise",
@@ -964,9 +870,7 @@
     "secondaryMuscles": [
       "traps"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "dumbbell_front_raise",
@@ -984,9 +888,7 @@
     "secondaryMuscles": [
       "traps"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "cable_front_raise",
@@ -1002,9 +904,7 @@
     "secondaryMuscles": [
       "traps"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "dumbbell_lateral_raise",
@@ -1022,9 +922,7 @@
     "secondaryMuscles": [
       "traps"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "cable_lateral_raise",
@@ -1040,9 +938,7 @@
     "secondaryMuscles": [
       "traps"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "machine_lateral_raise",
@@ -1060,9 +956,7 @@
     "secondaryMuscles": [
       "traps"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "dumbbell_rear_delt_fly",
@@ -1081,9 +975,7 @@
     "secondaryMuscles": [
       "traps"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "cable_rear_delt_fly",
@@ -1100,9 +992,7 @@
     "secondaryMuscles": [
       "traps"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "dumbbell_rear_delt_row",
@@ -1121,9 +1011,7 @@
       "back",
       "traps"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "dumbbell_bent_over_face_pull",
@@ -1142,9 +1030,7 @@
       "back",
       "traps"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "barbell_upright_row",
@@ -1163,9 +1049,7 @@
       "traps",
       "biceps"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "barbell_curl",
@@ -1183,9 +1067,7 @@
     "secondaryMuscles": [
       "forearms"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "ez_bar_curl",
@@ -1201,9 +1083,7 @@
     "secondaryMuscles": [
       "forearms"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "dumbbell_biceps_curl",
@@ -1221,9 +1101,7 @@
     "secondaryMuscles": [
       "forearms"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "incline_dumbbell_curl",
@@ -1241,9 +1119,7 @@
     "secondaryMuscles": [
       "forearms"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "cable_biceps_curl",
@@ -1259,9 +1135,7 @@
     "secondaryMuscles": [
       "forearms"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "dumbbell_hammer_curl",
@@ -1279,9 +1153,7 @@
     "secondaryMuscles": [
       "forearms"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "dumbbell_incline_hammer_curl",
@@ -1299,9 +1171,7 @@
     "secondaryMuscles": [
       "forearms"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "dumbbell_concentration_curl",
@@ -1319,9 +1189,7 @@
     "secondaryMuscles": [
       "forearms"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "ez_bar_preacher_curl",
@@ -1337,9 +1205,7 @@
     "secondaryMuscles": [
       "forearms"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "barbell_preacher_curl",
@@ -1357,9 +1223,7 @@
     "secondaryMuscles": [
       "forearms"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "cable_preacher_curl",
@@ -1375,9 +1239,7 @@
     "secondaryMuscles": [
       "forearms"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "biceps_curl_machine",
@@ -1393,9 +1255,7 @@
     "secondaryMuscles": [
       "forearms"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "cable_triceps_pushdown",
@@ -1409,9 +1269,7 @@
       "triceps"
     ],
     "secondaryMuscles": [],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "cable_overhead_triceps_extension",
@@ -1425,9 +1283,7 @@
       "triceps"
     ],
     "secondaryMuscles": [],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "dumbbell_triceps_extension",
@@ -1443,9 +1299,7 @@
       "triceps"
     ],
     "secondaryMuscles": [],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "dumbbell_overhead_triceps_extension",
@@ -1461,9 +1315,7 @@
       "triceps"
     ],
     "secondaryMuscles": [],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "barbell_overhead_triceps_extension",
@@ -1479,9 +1331,7 @@
       "triceps"
     ],
     "secondaryMuscles": [],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "barbell_skullcrusher",
@@ -1498,9 +1348,7 @@
       "triceps"
     ],
     "secondaryMuscles": [],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "dumbbell_skullcrusher",
@@ -1517,9 +1365,7 @@
       "triceps"
     ],
     "secondaryMuscles": [],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "machine_triceps_extension",
@@ -1535,9 +1381,7 @@
       "triceps"
     ],
     "secondaryMuscles": [],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "triceps_dip_machine",
@@ -1551,9 +1395,7 @@
       "triceps"
     ],
     "secondaryMuscles": [],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "jm_press",
@@ -1568,9 +1410,7 @@
       "triceps"
     ],
     "secondaryMuscles": [],
-    "difficulty": "intermediate",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "intermediate"
   },
   {
     "exerciseId": "incline_dumbbell_triceps_extension",
@@ -1586,9 +1426,7 @@
       "triceps"
     ],
     "secondaryMuscles": [],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "barbell_squat",
@@ -1608,9 +1446,7 @@
       "glutes",
       "hamstrings"
     ],
-    "difficulty": "intermediate",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "intermediate"
   },
   {
     "exerciseId": "barbell_front_squat",
@@ -1630,9 +1466,7 @@
       "glutes",
       "hamstrings"
     ],
-    "difficulty": "intermediate",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "intermediate"
   },
   {
     "exerciseId": "clean_grip_front_squat",
@@ -1650,9 +1484,7 @@
       "glutes",
       "hamstrings"
     ],
-    "difficulty": "intermediate",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "intermediate"
   },
   {
     "exerciseId": "barbell_low_bar_squat",
@@ -1672,9 +1504,7 @@
       "quads",
       "hamstrings"
     ],
-    "difficulty": "intermediate",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "intermediate"
   },
   {
     "exerciseId": "hack_squat_machine",
@@ -1691,9 +1521,7 @@
       "glutes",
       "hamstrings"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "dumbbell_goblet_squat",
@@ -1712,9 +1540,7 @@
       "glutes",
       "hamstrings"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "kettlebell_goblet_squat",
@@ -1731,9 +1557,7 @@
       "glutes",
       "hamstrings"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "dumbbell_front_squat",
@@ -1752,9 +1576,7 @@
       "glutes",
       "hamstrings"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "kettlebell_front_squat",
@@ -1771,9 +1593,7 @@
       "glutes",
       "hamstrings"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "smith_machine_bulgarian_split_squat",
@@ -1793,9 +1613,7 @@
       "glutes",
       "hamstrings"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "dumbbell_bulgarian_split_squat",
@@ -1815,9 +1633,7 @@
       "glutes",
       "hamstrings"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "barbell_bulgarian_split_squat",
@@ -1837,9 +1653,7 @@
       "glutes",
       "hamstrings"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "bodyweight_bulgarian_split_squat",
@@ -1856,9 +1670,7 @@
       "glutes",
       "hamstrings"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "barbell_split_squat",
@@ -1877,9 +1689,7 @@
       "glutes",
       "hamstrings"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "dumbbell_split_squat",
@@ -1898,9 +1708,7 @@
       "glutes",
       "hamstrings"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "spanish_split_squat",
@@ -1917,9 +1725,7 @@
       "glutes",
       "hamstrings"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "dumbbell_lunge",
@@ -1938,9 +1744,7 @@
       "glutes",
       "hamstrings"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "barbell_lunge",
@@ -1959,9 +1763,7 @@
       "glutes",
       "hamstrings"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "bodyweight_forward_lunge",
@@ -1976,9 +1778,7 @@
       "glutes",
       "hamstrings"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "bodyweight_reverse_lunge",
@@ -1993,9 +1793,7 @@
       "glutes",
       "hamstrings"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "barbell_rear_lunge",
@@ -2014,9 +1812,7 @@
       "glutes",
       "hamstrings"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "dumbbell_rear_lunge",
@@ -2035,9 +1831,7 @@
       "glutes",
       "hamstrings"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "side_lunge",
@@ -2053,9 +1847,7 @@
       "hamstrings",
       "adductors"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "landmine_lateral_lunge",
@@ -2074,9 +1866,7 @@
       "hamstrings",
       "adductors"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "cossack_squat",
@@ -2092,9 +1882,7 @@
       "hamstrings",
       "adductors"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "barbell_deadlift",
@@ -2114,9 +1902,7 @@
       "back",
       "traps"
     ],
-    "difficulty": "intermediate",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "intermediate"
   },
   {
     "exerciseId": "trap_bar_deadlift",
@@ -2134,9 +1920,7 @@
       "back",
       "traps"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "barbell_sumo_deadlift",
@@ -2157,9 +1941,7 @@
       "traps",
       "adductors"
     ],
-    "difficulty": "intermediate",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "intermediate"
   },
   {
     "exerciseId": "barbell_romanian_deadlift",
@@ -2179,9 +1961,7 @@
       "back",
       "traps"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "dumbbell_romanian_deadlift",
@@ -2201,9 +1981,7 @@
       "back",
       "traps"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "kettlebell_romanian_deadlift",
@@ -2221,9 +1999,7 @@
       "back",
       "traps"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "barbell_stiff_leg_deadlift",
@@ -2243,9 +2019,7 @@
       "back",
       "traps"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "barbell_good_morning",
@@ -2265,9 +2039,7 @@
       "back",
       "traps"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "roman_chair_back_extension",
@@ -2284,9 +2056,7 @@
     "secondaryMuscles": [
       "erector_spinae"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "back_extension_machine",
@@ -2303,9 +2073,7 @@
     "secondaryMuscles": [
       "erector_spinae"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "barbell_hip_thrust",
@@ -2324,9 +2092,7 @@
     "secondaryMuscles": [
       "hamstrings"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "dumbbell_hip_thrust",
@@ -2345,9 +2111,7 @@
     "secondaryMuscles": [
       "hamstrings"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "bodyweight_hip_thrust",
@@ -2363,9 +2127,7 @@
     "secondaryMuscles": [
       "hamstrings"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "barbell_glute_bridge",
@@ -2383,9 +2145,7 @@
     "secondaryMuscles": [
       "hamstrings"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "bodyweight_glute_bridge",
@@ -2399,9 +2159,7 @@
     "secondaryMuscles": [
       "hamstrings"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "barbell_kas_glute_bridge",
@@ -2419,9 +2177,7 @@
     "secondaryMuscles": [
       "hamstrings"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "banded_hip_thrust",
@@ -2438,9 +2194,7 @@
     "secondaryMuscles": [
       "hamstrings"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "feet_elevated_glute_bridge",
@@ -2456,9 +2210,7 @@
     "secondaryMuscles": [
       "hamstrings"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "frog_pump",
@@ -2472,9 +2224,7 @@
     "secondaryMuscles": [
       "hamstrings"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "cable_pull_through",
@@ -2490,9 +2240,7 @@
     "secondaryMuscles": [
       "hamstrings"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "standing_calf_raise",
@@ -2504,9 +2252,7 @@
       "calves"
     ],
     "secondaryMuscles": [],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "seated_calf_raise",
@@ -2518,9 +2264,7 @@
       "calves"
     ],
     "secondaryMuscles": [],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "barbell_calf_raise",
@@ -2536,9 +2280,7 @@
       "calves"
     ],
     "secondaryMuscles": [],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "dumbbell_calf_raise",
@@ -2554,9 +2296,7 @@
       "calves"
     ],
     "secondaryMuscles": [],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "smith_machine_calf_raise",
@@ -2572,9 +2312,7 @@
       "calves"
     ],
     "secondaryMuscles": [],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "donkey_calf_raise",
@@ -2586,9 +2324,7 @@
       "calves"
     ],
     "secondaryMuscles": [],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "deficit_calf_raise",
@@ -2600,9 +2336,7 @@
       "calves"
     ],
     "secondaryMuscles": [],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "hack_squat_calf_raise",
@@ -2619,9 +2353,7 @@
       "glutes",
       "hamstrings"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "ab_wheel_rollout",
@@ -2635,9 +2367,7 @@
       "core"
     ],
     "secondaryMuscles": [],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "abdominal_crunches_machine",
@@ -2651,9 +2381,7 @@
       "core"
     ],
     "secondaryMuscles": [],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "crunch",
@@ -2665,9 +2393,7 @@
       "core"
     ],
     "secondaryMuscles": [],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "bicycle_crunch",
@@ -2679,9 +2405,7 @@
       "core"
     ],
     "secondaryMuscles": [],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "cable_crunch",
@@ -2695,9 +2419,7 @@
       "core"
     ],
     "secondaryMuscles": [],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "oblique_crunch",
@@ -2709,9 +2431,7 @@
       "core"
     ],
     "secondaryMuscles": [],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "hanging_leg_raise",
@@ -2725,9 +2445,7 @@
       "core"
     ],
     "secondaryMuscles": [],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "hanging_oblique_raise",
@@ -2741,9 +2459,7 @@
       "other"
     ],
     "secondaryMuscles": [],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "weighted_crunch",
@@ -2757,9 +2473,7 @@
       "core"
     ],
     "secondaryMuscles": [],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "sit_up",
@@ -2771,9 +2485,7 @@
       "core"
     ],
     "secondaryMuscles": [],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "weighted_sit_up",
@@ -2787,9 +2499,7 @@
       "core"
     ],
     "secondaryMuscles": [],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "decline_sit_up",
@@ -2803,9 +2513,7 @@
       "core"
     ],
     "secondaryMuscles": [],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "weighted_decline_sit_up",
@@ -2820,9 +2528,7 @@
       "core"
     ],
     "secondaryMuscles": [],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "russian_twist",
@@ -2834,9 +2540,7 @@
       "core"
     ],
     "secondaryMuscles": [],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "medicine_ball_russian_twist",
@@ -2850,9 +2554,7 @@
       "core"
     ],
     "secondaryMuscles": [],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "forearm_plank",
@@ -2864,9 +2566,7 @@
       "core"
     ],
     "secondaryMuscles": [],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "long_lever_plank",
@@ -2878,9 +2578,7 @@
       "core"
     ],
     "secondaryMuscles": [],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "side_plank",
@@ -2892,9 +2590,7 @@
       "core"
     ],
     "secondaryMuscles": [],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "dumbbell_farmer_carry",
@@ -2913,9 +2609,7 @@
       "forearms",
       "core"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   },
   {
     "exerciseId": "rowing_machine",
@@ -2931,8 +2625,6 @@
     "secondaryMuscles": [
       "biceps"
     ],
-    "difficulty": "beginner",
-    "imageUrl": "",
-    "videoUrl": ""
+    "difficulty": "beginner"
   }
 ]

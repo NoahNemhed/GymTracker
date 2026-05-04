@@ -186,9 +186,46 @@ export type CreateWorkoutSessionPayload = {
   }[];
 };
 
+export type WorkoutSessionType = {
+  _id: string;
+  programId:
+    | string
+    | {
+        _id: string;
+        name: string;
+        goal: string;
+      };
+  dayId: string;
+  dayName: string;
+  completedAt: string;
+  exercises: {
+    exerciseId: string;
+    targetSets: number;
+    completedSets: number;
+    repRange: string;
+    restSeconds: number;
+  }[];
+};
+
+export type WorkoutStatsType = {
+  totalWorkouts: number;
+  totalCompletedSets: number;
+  totalTargetSets: number;
+};
+
 export const createWorkoutSession = async (
   payload: CreateWorkoutSessionPayload
 ) => {
   const response = await api.post("/workouts", payload);
+  return response.data;
+};
+
+export const getWorkoutSessions = async (): Promise<WorkoutSessionType[]> => {
+  const response = await api.get("/workouts");
+  return response.data;
+};
+
+export const getWorkoutStats = async (): Promise<WorkoutStatsType> => {
+  const response = await api.get("/workouts/stats");
   return response.data;
 };
