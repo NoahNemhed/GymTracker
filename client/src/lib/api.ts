@@ -3,7 +3,6 @@ import axios from "axios";
 // Base API url used for all requests
 const API_BASE_URL = "http://localhost:5000/api";
 
-
 // Create axios instance with default config
 export const api = axios.create({
   baseURL: API_BASE_URL,
@@ -23,7 +22,6 @@ api.interceptors.request.use((config) => {
 
   return config;
 });
-
 
 // AUTH: Login & Register payload types
 export type RegisterPayload = {
@@ -46,8 +44,6 @@ export const loginUser = async (payload: LoginPayload) => {
   const response = await api.post("/auth/login", payload);
   return response.data;
 };
-
-
 
 // PROGRAM TYPES: Structure of programs, days, and exercises
 export type ProgramExercise = {
@@ -109,11 +105,10 @@ export type UpdateProgramPayload = Partial<{
   days: ProgramType["days"];
 }>;
 
-
 // Fetch all programs for the current user
 export const getPrograms = async (): Promise<ProgramType[]> => {
   const response = await api.get("/programs");
-  return response.data; 
+  return response.data;
 };
 
 // Fetch a single program by id
@@ -124,7 +119,7 @@ export const getProgramById = async (id: string): Promise<ProgramType> => {
 
 // Create a new program
 export const createProgram = async (
-  payload: CreateProgramPayload
+  payload: CreateProgramPayload,
 ): Promise<ProgramType> => {
   const response = await api.post("/programs", payload);
   return response.data;
@@ -142,17 +137,14 @@ export const setActiveProgram = async (id: string) => {
   return response.data;
 };
 
-
 // Update an existing program (used for adding/removing exercises etc.)
 export const updateProgram = async (
   id: string,
-  payload: UpdateProgramPayload
+  payload: UpdateProgramPayload,
 ): Promise<ProgramType> => {
   const response = await api.put(`/programs/${id}`, payload);
   return response.data;
 };
-
-
 
 // EXERCISE TYPES: Used in exercise search and selection
 export type ExerciseType = {
@@ -163,13 +155,20 @@ export type ExerciseType = {
   primaryMuscles: string[];
 };
 
-// Fetch all exercises for search modal
-export const getExercises = async (): Promise<ExerciseType[]> => {
-  const response = await api.get("/exercises");
-  return response.data;
+export type ExerciseFilters = {
+  muscle?: string;
+  type?: string;
 };
 
-
+// Fetch all exercises for search modal
+export const getExercises = async (
+  filters: ExerciseFilters = {},
+): Promise<ExerciseType[]> => {
+  const response = await api.get("/exercises", {
+    params: filters,
+  });
+  return response.data;
+};
 
 // WORKOUT SESSION
 // Payload used when completing a workout session
@@ -214,7 +213,7 @@ export type WorkoutStatsType = {
 };
 
 export const createWorkoutSession = async (
-  payload: CreateWorkoutSessionPayload
+  payload: CreateWorkoutSessionPayload,
 ) => {
   const response = await api.post("/workouts", payload);
   return response.data;
